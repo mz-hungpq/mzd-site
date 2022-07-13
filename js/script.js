@@ -30,9 +30,37 @@ const MZDPage = {
             $('html,body').animate({ scrollTop: 0 }, 'slow');
         })
     },
+    changeTypeNews: function () {
+        $('#category .type').click(function () {
+            const type = $(this).text();
+            $('#category .type').each(function () {
+                $(this).removeClass('active');
+            })
+            $(this).addClass('active');
+
+            MZDPage.resetNewsType();
+
+            $('#news-list .single-news').each(function () {
+                if (type === '전체') {
+                    $(this).addClass('appear');
+                } else {
+                    if ($(this).find('.news-type').text() === type) {
+                        $(this).addClass('appear');
+                    } else $(this).addClass('disappear');
+                }
+            })
+        })
+    },
+    resetNewsType: function () {
+        $('#news-list .single-news').each(function () {
+            $(this).removeClass('appear');
+            $(this).removeClass('disappear');
+        })
+    },
     init: function () {
         this.mainSlider();
         this.subSlider();
         this.scrollToTop();
+        this.changeTypeNews();
     }
 }

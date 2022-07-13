@@ -73,6 +73,10 @@ img {
     background-color: #E6F8D1;
 }
 
+#header.header-gray {
+    background-color: #CBCBCB;
+}
+
 #header .header-content {
     max-width: var(--header-max-width);
     height: var(--header-content-height);
@@ -90,6 +94,10 @@ img {
 
 #header.header-green .header-content {
     background-color: #E6F8D1;
+}
+
+#header.header-gray .header-content {
+    background-color: #CBCBCB;
 }
 
 #header .logo-container {
@@ -145,7 +153,7 @@ img {
 }
 
 #content-right {
-    width: 80%;
+    width: 85%;
     margin: 0 auto;
     margin-right: 0;
 }
@@ -494,6 +502,10 @@ img {
 
 #insight-header.header-green {
     background-color: #E6F8D1;
+}
+
+#insight-header.header-gray {
+    background-color: #CBCBCB;
 }
 
 #insight-header .insight-wrapper {
@@ -1381,10 +1393,18 @@ img {
 
 #category .type {
     border-radius: 20px 0px;
-    padding: 24px 39px;
+    padding: 21px 39px;
     width: 179px;
     height: 61px;
     text-align: center;
+    transition: 0.5s;
+    cursor: pointer;
+    user-select: none;
+    border: 1px solid transparent;
+}
+
+#category .type.active {
+    border: 1px solid #000000;
 }
 
 #category .type.all {
@@ -1405,7 +1425,6 @@ img {
 #news-list {
     width: 75%;
     margin: 0 auto;
-    display: grid;
     justify-content: center;
     align-items: center;
 }
@@ -1418,6 +1437,41 @@ img {
     padding-bottom: 110px;
     padding-top: 70px;
     border-bottom: 2px solid #CBCBCB;
+    transition: 0.5s;
+}
+
+#news-list .single-news.appear {
+    animation: news-appear 1s;
+    display: flex;
+}
+
+@keyframes news-appear {
+    0% {
+        transform: translateX(-100%) scale(0);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateX(0) scale(1);
+        opacity: 1;
+    }
+}
+
+#news-list .single-news.disappear {
+    animation: news-disappear 1s;
+    display: none;
+}
+
+@keyframes news-disappear {
+    0% {
+        transform: translateX(0) scale(1);
+        opacity: 1;
+    }
+
+    100% {
+        transform: translateX(100%) scale(0);
+        opacity: 0;
+    }
 }
 
 #news-list .news-container {
