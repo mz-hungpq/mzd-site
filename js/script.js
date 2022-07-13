@@ -57,10 +57,24 @@ const MZDPage = {
             $(this).removeClass('disappear');
         })
     },
+    scrollEffect: function () {
+        $(document).scroll(function () {
+            if ($(window).scrollTop() > 200) {
+                $('#header').addClass('fixed');
+                $('#slider').addClass('fixed');
+                $('#insight-header').addClass('fixed');
+            } else {
+                $('#header').removeClass('fixed');
+                $('#slider').removeClass('fixed');
+                $('#insight-header').removeClass('fixed');
+            }
+        })
+    },
     init: function () {
         this.mainSlider();
         this.subSlider();
         this.scrollToTop();
         this.changeTypeNews();
+        this.scrollEffect();
     }
 }
