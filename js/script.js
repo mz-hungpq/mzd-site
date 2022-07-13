@@ -3,6 +3,8 @@ $(document).ready(function () {
 });
 
 const MZDPage = {
+
+    //Main Page Slider
     mainSlider: function () {
         $('#slider .slider-content').slick({
             infinite: true,
@@ -15,6 +17,8 @@ const MZDPage = {
             autoplaySpeed: 4000,
         });
     },
+
+    //Main Page Technology Slider
     subSlider: function () {
         $('#content .content-list').slick({
             infinite: true,
@@ -25,11 +29,15 @@ const MZDPage = {
             variableWidth: true,
         })
     },
+
+    //Scroll to Top
     scrollToTop: function () {
         $('#footer .page-on-top').click(function () {
             $('html,body').animate({ scrollTop: 0 }, 'slow');
         })
     },
+
+    //Change Type of News in News Page
     changeTypeNews: function () {
         $('#category .type').click(function () {
             const type = $(this).text();
@@ -51,12 +59,16 @@ const MZDPage = {
             })
         })
     },
+
+    //Reset News Type
     resetNewsType: function () {
         $('#news-list .single-news').each(function () {
             $(this).removeClass('appear');
             $(this).removeClass('disappear');
         })
     },
+
+    //Show Header Fixed on Scroll
     scrollEffect: function () {
         $(document).scroll(function () {
             if ($(window).scrollTop() > 200) {
@@ -70,6 +82,7 @@ const MZDPage = {
             }
         })
     },
+
     init: function () {
         this.mainSlider();
         this.subSlider();
