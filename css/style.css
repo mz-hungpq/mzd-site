@@ -22,6 +22,9 @@
     --slider-image-width: 950px;
     --slider-image-height: 599px;
 
+    --max-width-75: 1330px;
+    --max-width-85: 1560px;
+
     --content-slide-width: 340px;
     --content-slide-height-long: 500px;
     --content-slide-height-short: 400px;
@@ -169,8 +172,8 @@ img {
 }
 
 #content-right {
-    width: 85%;
-    max-width: 1560px;
+    width: 84%;
+    max-width: var(--max-width-85);
     margin: 0 auto;
     margin-right: 0;
 }
@@ -492,10 +495,15 @@ img {
 
 #welcome .wrapper-button span {
     font-size: 17px;
-    line-height: 21px;
-    padding: 10px 78px 15px 40px;
+    line-height: 100%;
     background-color: var(--text-sub-color);
     color: var(--white-color);
+    display: flex;
+    text-align: center;
+    width: 224px;
+    height: 60px;
+    align-items: center;
+    justify-content: center;
 }
 
 /* Welcome Style */
@@ -537,7 +545,7 @@ img {
 
 #insight-header .insight-wrapper {
     width: 75%;
-    max-width: 1330px;
+    max-width: var(--max-width-75);
     margin: 0 auto;
 }
 
@@ -576,7 +584,7 @@ img {
 
 #insight-content {
     width: 75%;
-    max-width: 1330px;
+    max-width: var(--max-width-75);
     margin: 0 auto;
     padding-top: 125px;
 }
@@ -709,7 +717,7 @@ img {
 
 #related-content {
     width: 75%;
-    max-width: 1330px;
+    max-width: var(--max-width-75);
     margin: 0 auto;
     margin-top: 100px;
 }
@@ -762,7 +770,7 @@ img {
 
 #reference-content {
     width: 75%;
-    max-width: 1330px;
+    max-width: var(--max-width-75);
     margin: 0 auto;
     padding-top: 40px;
     color: #414141;
@@ -917,7 +925,7 @@ img {
 
 #reference-content .insight-reference2-3 {
     width: 75%;
-    max-width: 1330px;
+    max-width: var(--max-width-75);
     margin: 0 auto;
     margin-top: 100px;
     display: flex;
@@ -1064,7 +1072,7 @@ img {
 
 #column1-content .insight-column1-2 {
     width: 75%;
-    max-width: 1330px;
+    max-width: var(--max-width-75);
     margin: 0 auto;
     margin-top: 100px;
     margin-bottom: 85px;
@@ -1149,7 +1157,7 @@ img {
 
 #column2-content {
     width: 75%;
-    max-width: 1330px;
+    max-width: var(--max-width-75);
     margin: 0 auto;
     padding-top: 120px;
     color: #414141;
@@ -1370,7 +1378,7 @@ img {
 
 #news-cover {
     width: 75%;
-    max-width: 1330px;
+    max-width: var(--max-width-75);
     margin: 0 auto;
     margin-top: 90px;
     margin-bottom: 300px;
@@ -1435,7 +1443,7 @@ img {
 
 #category {
     width: 75%;
-    max-width: 1330px;
+    max-width: var(--max-width-75);
     margin: 0 auto;
     display: flex;
     flex-wrap: wrap;
@@ -1477,7 +1485,7 @@ img {
 
 #news-list {
     width: 75%;
-    max-width: 1330px;
+    max-width: var(--max-width-75);
     margin: 0 auto;
     justify-content: center;
     align-items: center;
@@ -1605,7 +1613,7 @@ img {
 
 #constant-worries {
     width: 75%;
-    max-width: 1330px;
+    max-width: var(--max-width-75);
     margin: 0 auto;
     margin-top: 125px;
     margin-bottom: 96px;
@@ -1651,7 +1659,7 @@ img {
 
 #benefit {
     width: 75%;
-    max-width: 1330px;
+    max-width: var(--max-width-75);
     margin: 0 auto;
     margin-bottom: 125px;
 }
