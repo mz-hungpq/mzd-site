@@ -4,8 +4,7 @@
 ------ */
 
 #reference-content {
-    width: 75%;
-    max-width: var(--small-content-max-width);
+    width: var(--page-max-width);
     margin: 0 auto;
     padding-top: 40px;
     color: #414141;

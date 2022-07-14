@@ -37,17 +37,15 @@
 }
 
 #header .header-content {
-    max-width: var(--header-max-width);
     height: var(--header-content-height);
     background-color: var(--main-color);
-    width: var(--header-width);
+    width: var(--page-max-width);
     margin: 0 auto;
     position: relative;
     display: flex;
     justify-content: space-between;
     align-items: center;
     font-weight: 400;
-    transform: translateX(25px);
 }
 
 #header.header-green .header-content {

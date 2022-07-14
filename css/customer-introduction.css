@@ -4,8 +4,7 @@
 ------ */
 
 #customer-introduction {
-    width: 85%;
-    max-width: var(--large-content-max-width);
+    width: var(--page-max-width);
     margin: 0 auto;
     margin-top: 133px;
     margin-bottom: 107px;

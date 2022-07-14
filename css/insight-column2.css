@@ -4,8 +4,7 @@
 ------ */
 
 #column2-content {
-    width: 75%;
-    max-width: var(--small-content-max-width);
+    width: var(--page-max-width);
     margin: 0 auto;
     padding-top: 120px;
     color: #414141;
@@ -63,7 +62,7 @@
 }
 
 #column2-content .column2-details .right {
-    width: 71%;
+    width: 65%;
 }
 
 #column2-content .column2-details .right .text.separate {
@@ -88,8 +87,11 @@
 }
 
 #column2-content .column2-details .right svg {
-    width: 100%;
     margin-bottom: 88px;
+}
+
+#column2-content .column2-details .right svg.separate {
+    margin-left: 80px;
 }
 
 #column2-content .insight-column2-1 .right .text {

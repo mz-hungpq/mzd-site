@@ -10,17 +10,23 @@
     font-style: normal;
 }
 
-#content-right {
+#main .content-right {
     width: 100%;
-    max-width: var(--header-max-width);
     margin: 0 auto;
-    padding-left: 135px;
+    margin-right: 0;
+}
+
+#main .mzd-container {
+    width: auto;
+    display: flex;
+    margin-left: calc((100% - var(--page-max-width))/2 + 120px);
+    overflow: hidden;
 }
 
 /* Slider Style */
 
 #slider {
-    width: 1460px;
+    width: 100%;
 }
 
 #slider.fixed {
@@ -196,9 +202,9 @@
 /* News Style */
 
 #news {
-    max-width: var(--header-max-width);
+    max-width: var(--page-max-width);
     width: var(--header-width);
-    transform: translateX(25px);
+
     margin: 0 auto;
     margin-top: 120px;
     margin-bottom: 165px;
@@ -247,9 +253,9 @@
 /* Populate Style */
 
 #populate {
-    max-width: var(--header-max-width);
+    max-width: var(--page-max-width);
     width: var(--header-width);
-    transform: translateX(25px);
+
     margin: 0 auto;
     margin-top: 170px;
     margin-bottom: 180px;
@@ -297,9 +303,9 @@
 }
 
 #welcome .welcome-wrapper {
-    max-width: var(--header-max-width);
+    max-width: var(--page-max-width);
     width: var(--header-width);
-    transform: translateX(25px);
+
     margin: 0 auto;
     font-weight: 400;
     margin-bottom: 60px;

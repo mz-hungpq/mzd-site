@@ -11,18 +11,14 @@
     --white-color: #FFFFFF;
     --main-font-family: 'Inter', sans-serif;
 
-    --header-max-width: 1460px;
+    --page-max-width: 1460px;
+
     --header-height: 127px;
-    --header-width: 1430px;
     --header-content-height: 47px;
     --header-content-top: 50px;
 
     --slider-image-width: 950px;
     --slider-image-height: 599px;
-
-    --small-content-max-width: 1295px;
-    --slider-max-width: 1530px;
-    --large-content-max-width: 1450px;
 
     --content-slide-width: 340px;
     --content-slide-height-long: 500px;

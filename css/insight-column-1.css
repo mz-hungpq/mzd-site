@@ -4,8 +4,7 @@
 ------ */
 
 #column1-content {
-    width: 85%;
-    max-width: var(--large-content-max-width);
+    width: var(--page-max-width);
     margin: 0 auto;
     padding-top: 110px;
     color: #414141;
@@ -35,7 +34,7 @@
 }
 
 #column1-content .insight-column1-1 {
-    width: 70%;
+    width: 71%;
     margin: 0 auto;
     margin-top: 100px;
     margin-bottom: 85px;
@@ -45,8 +44,7 @@
 }
 
 #column1-content .insight-column1-2 {
-    width: 75%;
-    max-width: var(--small-content-max-width);
+    width: 77%;
     margin: 0 auto;
     margin-top: 100px;
     margin-bottom: 85px;
@@ -76,7 +74,7 @@
 }
 
 #column1-content .insight-column1-5 {
-    width: 95%;
+    width: 100%;
     margin: 0 auto;
     margin-top: 120px;
     font-weight: 400;

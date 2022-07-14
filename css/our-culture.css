@@ -4,8 +4,7 @@
 ------ */
 
 #constant-worries {
-    width: 75%;
-    max-width: var(--small-content-max-width);
+    width: var(--page-max-width);
     margin: 0 auto;
     margin-top: 125px;
     margin-bottom: 96px;
@@ -51,8 +50,7 @@
 }
 
 #benefit {
-    width: 75%;
-    max-width: var(--small-content-max-width);
+    width: var(--page-max-width);
     margin: 0 auto;
     margin-bottom: 125px;
     font-family: var(--main-font-family);

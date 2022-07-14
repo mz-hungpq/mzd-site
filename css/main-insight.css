@@ -30,8 +30,7 @@
 }
 
 #insight-header .insight-wrapper {
-    width: 75%;
-    max-width: var(--small-content-max-width);
+    width: var(--page-max-width);
     margin: 0 auto;
 }
 
@@ -69,8 +68,7 @@
 /* Inside Content */
 
 #insight-content {
-    width: 75%;
-    max-width: var(--small-content-max-width);
+    width: var(--page-max-width);
     margin: 0 auto;
     padding-top: 125px;
     font-family: var(--main-font-family);
@@ -148,17 +146,13 @@
 #insight-content .insight-study-4,
 #insight-content .insight-study-5,
 #insight-content .insight-study-6 {
-    width: 80%;
+    width: 100%;
     margin: 0 auto;
     margin-top: 60px;
     margin-bottom: 60px;
     display: flex;
     align-items: center;
     justify-content: center;
-}
-
-#insight-content .insight-study-5 {
-    width: 83%;
 }
 
 #insight-content .insight-study-7 {
@@ -222,8 +216,7 @@
 /* Related Content */
 
 #related-content {
-    width: 75%;
-    max-width: var(--small-content-max-width);
+    width: var(--page-max-width);
     margin: 0 auto;
     margin-top: 100px;
     font-family: var(--main-font-family);

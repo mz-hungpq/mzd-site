@@ -4,8 +4,7 @@
 ------ */
 
 #map-content {
-    width: 85%;
-    max-width: var(--large-content-max-width);
+    width: var(--page-max-width);
     margin: 0 auto;
     margin-top: 87px;
     margin-bottom: 120px;

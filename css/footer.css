@@ -7,18 +7,7 @@
 }
 
 #footer .footer-content {
-    max-width: var(--small-content-max-width);
-    background-color: var(--sub-color);
-    padding-top: var(--footer-content-top);
-    padding-bottom: var(--footer-content-bottom);
-    width: 75%;
-    margin: 0 auto;
-}
-
-#footer.large .footer-content {
-    max-width: var(--header-max-width);
-    width: var(--header-width);
-    transform: translateX(25px);
+    width: var(--page-max-width);
     background-color: var(--sub-color);
     padding-top: var(--footer-content-top);
     padding-bottom: var(--footer-content-bottom);
