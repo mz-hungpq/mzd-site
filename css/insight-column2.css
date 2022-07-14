@@ -1,0 +1,222 @@
+/* Start Column Insight 2 Page */
+/* ------
+------
+------ */
+
+#column2-content {
+    width: 75%;
+    max-width: var(--small-content-max-width);
+    margin: 0 auto;
+    padding-top: 120px;
+    color: #414141;
+    font-family: var(--main-font-family);
+}
+
+#column2-content .column2-header {
+    width: 100%;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+
+#column2-content .column2-header .column2-header-title {
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 140%;
+    letter-spacing: -0.03em;
+    color: #141414;
+}
+
+#column2-content .column2-header .column2-user {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 50px;
+}
+
+#column2-content .column2-user .department {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 170%;
+    letter-spacing: -0.03em;
+    color: #777777;
+
+}
+
+#column2-content .column2-user .name {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 170%;
+    letter-spacing: -0.03em;
+    color: #000000;
+}
+
+#column2-content .column2-details {
+    width: 100%;
+    margin: 0 auto;
+    transform: translateX(20px);
+}
+
+#column2-content .column2-details .left {
+    width: 30%;
+}
+
+#column2-content .column2-details .right {
+    width: 71%;
+}
+
+#column2-content .column2-details .right .text.separate {
+    margin-bottom: 30px;
+}
+
+#column2-content .column2-details .right .text.separate2 {
+    margin-bottom: 16px;
+}
+
+#column2-content .column2-details .right .text.bold {
+    font-weight: 700;
+    margin-top: 80px;
+}
+
+#column2-content .column2-details .right .text {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 170%;
+    letter-spacing: -0.03em;
+    color: #333333;
+}
+
+#column2-content .column2-details .right svg {
+    width: 100%;
+    margin-bottom: 88px;
+}
+
+#column2-content .insight-column2-1 .right .text {
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 170%;
+    letter-spacing: -0.03em;
+    color: #333333;
+}
+
+#column2-content .column2-details .left .title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 100%;
+    letter-spacing: -0.03em;
+    color: var(--text-color);
+}
+
+#column2-content .insight-column2-1,
+#column2-content .insight-column2-2,
+#column2-content .insight-column2-3,
+#column2-content .insight-column2-4 {
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin-top: 130px;
+}
+
+#column2-content .insight-column2-2 .right .title {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 170%;
+    letter-spacing: -0.03em;
+    color: #333333;
+    margin-bottom: 25px;
+}
+
+#column2-content .insight-column2-3 .right .title {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 170%;
+    letter-spacing: -0.03em;
+    color: #333333;
+    margin-bottom: 25px;
+    margin-top: 80px;
+}
+
+#column2-content .insight-column2-3 .right .image {
+    background-color: #FAFAFA;
+    padding: 70px 35px;
+    margin-bottom: 40px;
+}
+
+#column2-content .insight-column2-3 .right .table {
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+    gap: 81px;
+}
+
+#column2-content .insight-column2-3 .right .table>div {
+    display: grid;
+    align-content: space-between;
+}
+
+#column2-content .insight-column2-4 .right .paragraph {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 55px;
+    margin-bottom: 78px;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 170%;
+    text-align: center;
+    letter-spacing: -0.03em;
+    color: #333333;
+}
+
+#column2-content .insight-column2-tag {
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 120px;
+    margin-bottom: 40px;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+}
+
+#column2-content .insight-column2-tag .tag {
+    color: #515151;
+}
+
+#column2-content .insight-column2-tag .sub-tag {
+    color: #414141;
+    margin-top: 27px;
+}
+
+#column2-content .insight-column2-tag .sub-tag span {
+    border-top: 1px solid #CBCBCB;
+    padding: 11px 0 0 0;
+}
+
+#column2-content .insight-content-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    user-select: none;
+}
+
+#column2-content .insight-content-button span {
+    font-size: 20px;
+    line-height: 100%;
+    background-color: #939393;
+    transform: translateX(80px);
+    color: var(--white-color);
+    display: flex;
+    width: 112px;
+    height: 52px;
+    align-items: center;
+    justify-content: center;
+}
+
+/* ------
+------
+------ */
+/* End Column Insight 2 Page */

@@ -1,0 +1,125 @@
+/* Start Column Insight 1 Page */
+/* ------
+------
+------ */
+
+#column1-content {
+    width: 85%;
+    max-width: var(--large-content-max-width);
+    margin: 0 auto;
+    padding-top: 110px;
+    color: #414141;
+    font-family: var(--main-font-family);
+}
+
+#column1-content .column1-content-title {
+    width: 100%;
+    margin-top: 60px;
+    margin-bottom: 40px;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    color: #414141;
+}
+
+#column1-content .column1-content-text {
+    width: 100%;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    color: #414141;
+}
+
+#column1-content .column1-content-text.separate {
+    margin-bottom: 40px;
+}
+
+#column1-content .insight-column1-1 {
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 100px;
+    margin-bottom: 85px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#column1-content .insight-column1-2 {
+    width: 75%;
+    max-width: var(--small-content-max-width);
+    margin: 0 auto;
+    margin-top: 100px;
+    margin-bottom: 85px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#column1-content .insight-column1-3 {
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 100px;
+    margin-bottom: 85px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#column1-content .insight-column1-4 {
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 100px;
+    margin-bottom: 85px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#column1-content .insight-column1-5 {
+    width: 95%;
+    margin: 0 auto;
+    margin-top: 120px;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+}
+
+#column1-content .insight-column1-5 .tag {
+    color: #515151;
+}
+
+#column1-content .insight-column1-5 .sub-tag {
+    color: #414141;
+    margin-top: 27px;
+}
+
+#column1-content .insight-column1-5 .sub-tag span {
+    border-top: 1px solid #CBCBCB;
+    padding: 11px 0 0 0;
+}
+
+#column1-content .insight-content-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    user-select: none;
+}
+
+#column1-content .insight-content-button span {
+    font-size: 20px;
+    line-height: 100%;
+    background-color: #939393;
+    transform: translateX(80px);
+    color: var(--white-color);
+    display: flex;
+    width: 112px;
+    height: 52px;
+    align-items: center;
+    justify-content: center;
+}
+
+/* ------
+------
+------ */
+/* End Column Insight 1 Page */

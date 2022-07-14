@@ -1,0 +1,189 @@
+/* Footer Style */
+
+#footer {
+    background-color: var(--sub-color);
+    width: 100%;
+    font-family: var(--main-font-family);
+}
+
+#footer .footer-content {
+    max-width: var(--small-content-max-width);
+    background-color: var(--sub-color);
+    padding-top: var(--footer-content-top);
+    padding-bottom: var(--footer-content-bottom);
+    width: 75%;
+    margin: 0 auto;
+}
+
+#footer.large .footer-content {
+    max-width: var(--header-max-width);
+    width: var(--header-width);
+    transform: translateX(25px);
+    background-color: var(--sub-color);
+    padding-top: var(--footer-content-top);
+    padding-bottom: var(--footer-content-bottom);
+    margin: 0 auto;
+}
+
+#footer .footer-top {
+    border-bottom: 1px solid var(--card-color);
+    padding-bottom: 2em;
+    margin-bottom: 1em;
+    display: flex;
+    justify-content: space-between;
+}
+
+#footer .page-list {
+    width: 49%;
+    font-weight: 400;
+}
+
+#footer ul#footer-nav {
+    list-style-type: none;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 2em;
+}
+
+#footer ul#footer-nav li {
+    width: 50%;
+    gap: 76px;
+    padding: 0 0 2em 0;
+}
+
+#footer ul#footer-nav li a {
+    font-size: 36px;
+    line-height: 44px;
+    color: var(--white-color);
+}
+
+#footer ul#footer-nav li.has-child a {
+    border-bottom: 2px solid var(--white-color);
+}
+
+#footer ul#footer-subnav {
+    list-style-type: none;
+    width: 100%;
+    padding-top: 1em;
+}
+
+#footer ul#footer-subnav li {
+    width: 100%;
+    padding: 0;
+}
+
+#footer ul#footer-subnav li a {
+    font-size: 24px;
+    line-height: 29px;
+    color: var(--white-color);
+}
+
+#footer ul#footer-nav li.has-child ul#footer-subnav li a {
+    border-bottom: none;
+}
+
+#footer span.page-list-button {
+    border: 3px solid var(--card-color);
+    padding: 10px 80px 10px 10px;
+    font-size: 20px;
+    line-height: 24px;
+    cursor: pointer;
+    user-select: none;
+    color: var(--white-color);
+}
+
+#footer .page-info {
+    width: 49%;
+    font-weight: 400;
+    position: relative;
+}
+
+#footer .page-card {
+    background-color: var(--card-color);
+    padding: 40px 40px 30px 30px;
+}
+
+#footer .page-card .info-title {
+    font-size: 48px;
+    line-height: 58px;
+    color: var(--text-sub-color);
+}
+
+#footer .page-card .info-content {
+    font-size: 17px;
+    line-height: 21px;
+    padding-top: 1em;
+    color: var(--text-sub-color);
+}
+
+#footer .page-card .info-button {
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    padding-top: 1em;
+    cursor: pointer;
+    user-select: none;
+}
+
+#footer .page-card .info-button span {
+    font-size: 17px;
+    line-height: 100%;
+    background-color: var(--text-sub-color);
+    color: var(--white-color);
+    display: flex;
+    text-align: center;
+    width: 224px;
+    height: 60px;
+    align-items: center;
+    justify-content: center;
+}
+
+#footer .page-on-top {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    cursor: pointer;
+}
+
+#footer .logo-container {
+    display: flex;
+    align-items: center;
+    justify-content: right;
+}
+
+#footer .logo-container .logo {
+    font-size: 32px;
+    line-height: 39px;
+    text-align: center;
+    margin-right: 5px;
+    color: var(--text-color);
+}
+
+#footer .logo-container .logo-image {
+    font-size: 32px;
+    line-height: 39px;
+    text-align: justify;
+    color: var(--white-color);
+}
+
+#footer .page-address {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    font-weight: 400;
+}
+
+#footer .page-address .single-content {
+    font-size: 15px;
+    line-height: 24px;
+    color: var(--white-color);
+}
+
+#footer .page-address .page-copyright {
+    font-size: 15px;
+    line-height: 18px;
+    color: var(--white-color);
+}
+
+/* Footer Style */

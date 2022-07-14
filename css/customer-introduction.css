@@ -1,0 +1,42 @@
+/* Start Customer Introduction Page */
+/* ------
+------
+------ */
+
+#customer-introduction {
+    width: 85%;
+    max-width: var(--large-content-max-width);
+    margin: 0 auto;
+    margin-top: 133px;
+    margin-bottom: 107px;
+    font-family: var(--main-font-family);
+}
+
+#customer-introduction .title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 44px;
+    margin-bottom: 56px;
+    color: #000000;
+}
+
+#customer-introduction .customer-list {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: left;
+    margin-bottom: 84px;
+    gap: 10px;
+}
+
+#customer-introduction .customer-list .customer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* ------
+------
+------ */
+/* End Customer Introduction Page */
