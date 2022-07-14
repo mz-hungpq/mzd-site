@@ -9,31 +9,28 @@
     --text-sub-color-2: #414141;
     --card-color: #E5E5E5;
     --white-color: #FFFFFF;
-    --green-color: #E7F8D1;
     --main-font-family: 'Inter', sans-serif;
 
-    --header-max-width: 1527px;
+    --header-max-width: var(--header-width);
     --header-height: 127px;
+    --header-width: 1430px;
     --header-content-height: 47px;
     --header-content-top: 50px;
-
-    --header-margin-height: 152px;
 
     --slider-image-width: 950px;
     --slider-image-height: 599px;
 
-    --max-width-75: 1330px;
-    --max-width-85: 1560px;
+    --small-content-max-width: 1295px;
+    --slider-max-width: 1530px;
+    --large-content-max-width: 1450px;
 
     --content-slide-width: 340px;
     --content-slide-height-long: 500px;
     --content-slide-height-short: 400px;
     --content-slide-image-width: 278px;
 
-    --news-max-width: 1434px;
     --news-single-news-height: 248px;
 
-    --footer-max-width: 1438px;
     --footer-content-top: 52px;
     --footer-content-bottom: 40px;
 }
@@ -101,7 +98,7 @@ img {
     max-width: var(--header-max-width);
     height: var(--header-content-height);
     background-color: var(--main-color);
-    width: 1460px;
+    width: var(--header-width);
     margin: 0 auto;
     position: relative;
     display: flex;
@@ -172,8 +169,8 @@ img {
 }
 
 #content-right {
-    width: 84%;
-    max-width: var(--max-width-85);
+    width: 83%;
+    max-width: var(--slider-max-width);
     margin: 0 auto;
     margin-right: 0;
 }
@@ -357,8 +354,9 @@ img {
 /* News Style */
 
 #news {
-    max-width: var(--news-max-width);
-    width: 90%;
+    max-width: var(--header-max-width);
+    width: var(--header-width);
+    transform: translateX(25px);
     margin: 0 auto;
     margin-top: 120px;
     margin-bottom: 165px;
@@ -407,8 +405,9 @@ img {
 /* Populate Style */
 
 #populate {
-    max-width: var(--news-max-width);
-    width: 90%;
+    max-width: var(--header-max-width);
+    width: var(--header-width);
+    transform: translateX(25px);
     margin: 0 auto;
     margin-top: 170px;
     margin-bottom: 180px;
@@ -456,8 +455,9 @@ img {
 }
 
 #welcome .welcome-wrapper {
-    max-width: var(--news-max-width);
-    width: 90%;
+    max-width: var(--header-max-width);
+    width: var(--header-width);
+    transform: translateX(25px);
     margin: 0 auto;
     font-weight: 400;
     margin-bottom: 60px;
@@ -545,7 +545,7 @@ img {
 
 #insight-header .insight-wrapper {
     width: 75%;
-    max-width: var(--max-width-75);
+    max-width: var(--small-content-max-width);
     margin: 0 auto;
 }
 
@@ -584,7 +584,7 @@ img {
 
 #insight-content {
     width: 75%;
-    max-width: var(--max-width-75);
+    max-width: var(--small-content-max-width);
     margin: 0 auto;
     padding-top: 125px;
 }
@@ -592,7 +592,7 @@ img {
 #insight-content .insight-content-text {
     width: 100%;
     font-weight: 400;
-    font-size: 28px;
+    font-size: 27px;
     line-height: 34px;
     color: #414141;
 }
@@ -670,6 +670,10 @@ img {
     justify-content: center;
 }
 
+#insight-content .insight-study-5 {
+    width: 83%;
+}
+
 #insight-content .insight-study-7 {
     width: 100%;
     margin-top: 60px;
@@ -677,10 +681,25 @@ img {
 }
 
 #insight-content .insight-study-7 .video {
+    width: 105%;
     display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 40px;
+    justify-content: right;
+    gap: 32px;
+    align-items: flex-end;
+    text-align: right;
+    margin-bottom: 140px;
+}
+
+#insight-content .insight-study-7 .video .description {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: right;
+    color: #414141;
+}
+
+#insight-content .insight-study-7 .description .separate {
+    margin-bottom: 30px;
 }
 
 #insight-content .insight-study-7 .tag {
@@ -717,7 +736,7 @@ img {
 
 #related-content {
     width: 75%;
-    max-width: var(--max-width-75);
+    max-width: var(--small-content-max-width);
     margin: 0 auto;
     margin-top: 100px;
 }
@@ -730,7 +749,7 @@ img {
 }
 
 #related-content .related-list {
-    width: 100%;
+    width: 105%;
     margin-top: 60px;
     margin-bottom: 200px;
     display: flex;
@@ -770,7 +789,7 @@ img {
 
 #reference-content {
     width: 75%;
-    max-width: var(--max-width-75);
+    max-width: var(--small-content-max-width);
     margin: 0 auto;
     padding-top: 40px;
     color: #414141;
@@ -798,6 +817,7 @@ img {
     display: flex;
     align-items: center;
     justify-content: center;
+    transform: translateX(80px);
 }
 
 #reference-content .insight-reference1-1 .image-top {
@@ -856,10 +876,25 @@ img {
 }
 
 #reference-content .insight-reference1-4 .video {
+    width: 105%;
     display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 40px;
+    justify-content: right;
+    gap: 32px;
+    align-items: flex-end;
+    text-align: right;
+    margin-bottom: 140px;
+}
+
+#reference-content .insight-reference1-4 .video .description {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: right;
+    color: #414141;
+}
+
+#reference-content .insight-reference1-4 .description .separate {
+    margin-bottom: 30px;
 }
 
 #reference-content .insight-reference1-4 .tag {
@@ -925,14 +960,14 @@ img {
 
 #reference-content .insight-reference2-3 {
     width: 75%;
-    max-width: var(--max-width-75);
+    max-width: var(--small-content-max-width);
     margin: 0 auto;
     margin-top: 100px;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
-    gap: 92px;
+    gap: 75px;
 }
 
 #reference-content .insight-reference2-3 .image {
@@ -946,10 +981,25 @@ img {
 }
 
 #reference-content .insight-reference2-4 .video {
+    width: 105%;
     display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 40px;
+    justify-content: right;
+    gap: 32px;
+    align-items: flex-end;
+    text-align: right;
+    margin-bottom: 140px;
+}
+
+#reference-content .insight-reference2-4 .video .description {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: right;
+    color: #414141;
+}
+
+#reference-content .insight-reference2-4 .description .separate {
+    margin-bottom: 30px;
 }
 
 #reference-content .insight-reference2-4 .tag {
@@ -984,7 +1034,7 @@ img {
 }
 
 #reference-content .insight-reference3-2 {
-    width: 80%;
+    width: 85%;
     margin: 0 auto;
     margin-top: 120px;
     display: flex;
@@ -993,7 +1043,7 @@ img {
 }
 
 #reference-content .insight-reference3-3 {
-    width: 90%;
+    width: 93%;
     margin: 0 auto;
     margin-top: 40px;
     display: flex;
@@ -1008,10 +1058,25 @@ img {
 }
 
 #reference-content .insight-reference2-4 .video {
+    width: 105%;
     display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 40px;
+    justify-content: right;
+    gap: 32px;
+    align-items: flex-end;
+    text-align: right;
+    margin-bottom: 140px;
+}
+
+#reference-content .insight-reference2-4 .video .description {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: right;
+    color: #414141;
+}
+
+#reference-content .insight-reference2-4 .description .separate {
+    margin-bottom: 30px;
 }
 
 #reference-content .insight-reference2-4 .tag {
@@ -1033,6 +1098,7 @@ img {
 
 #column1-content {
     width: 85%;
+    max-width: var(--large-content-max-width);
     margin: 0 auto;
     padding-top: 110px;
     color: #414141;
@@ -1072,7 +1138,7 @@ img {
 
 #column1-content .insight-column1-2 {
     width: 75%;
-    max-width: var(--max-width-75);
+    max-width: var(--small-content-max-width);
     margin: 0 auto;
     margin-top: 100px;
     margin-bottom: 85px;
@@ -1102,7 +1168,7 @@ img {
 }
 
 #column1-content .insight-column1-5 {
-    width: 88%;
+    width: 95%;
     margin: 0 auto;
     margin-top: 120px;
     font-weight: 400;
@@ -1157,7 +1223,7 @@ img {
 
 #column2-content {
     width: 75%;
-    max-width: var(--max-width-75);
+    max-width: var(--small-content-max-width);
     margin: 0 auto;
     padding-top: 120px;
     color: #414141;
@@ -1214,7 +1280,7 @@ img {
 }
 
 #column2-content .column2-details .right {
-    width: 64%;
+    width: 71%;
 }
 
 #column2-content .column2-details .right .text.separate {
@@ -1239,12 +1305,13 @@ img {
 }
 
 #column2-content .column2-details .right svg {
+    width: 100%;
     margin-bottom: 88px;
 }
 
 #column2-content .insight-column2-1 .right .text {
     font-weight: 400;
-    font-size: 24px;
+    font-size: 23px;
     line-height: 170%;
     letter-spacing: -0.03em;
     color: #333333;
@@ -1378,7 +1445,7 @@ img {
 
 #news-cover {
     width: 75%;
-    max-width: var(--max-width-75);
+    max-width: var(--small-content-max-width);
     margin: 0 auto;
     margin-top: 90px;
     margin-bottom: 300px;
@@ -1443,7 +1510,7 @@ img {
 
 #category {
     width: 75%;
-    max-width: var(--max-width-75);
+    max-width: var(--small-content-max-width);
     margin: 0 auto;
     display: flex;
     flex-wrap: wrap;
@@ -1485,7 +1552,7 @@ img {
 
 #news-list {
     width: 75%;
-    max-width: var(--max-width-75);
+    max-width: var(--small-content-max-width);
     margin: 0 auto;
     justify-content: center;
     align-items: center;
@@ -1613,7 +1680,7 @@ img {
 
 #constant-worries {
     width: 75%;
-    max-width: var(--max-width-75);
+    max-width: var(--small-content-max-width);
     margin: 0 auto;
     margin-top: 125px;
     margin-bottom: 96px;
@@ -1659,7 +1726,7 @@ img {
 
 #benefit {
     width: 75%;
-    max-width: var(--max-width-75);
+    max-width: var(--small-content-max-width);
     margin: 0 auto;
     margin-bottom: 125px;
 }
@@ -1723,6 +1790,7 @@ img {
 
 #map-content {
     width: 85%;
+    max-width: var(--large-content-max-width);
     margin: 0 auto;
     margin-top: 87px;
     margin-bottom: 120px;
@@ -1772,7 +1840,8 @@ img {
 ------ */
 
 #customer-introduction {
-    width: 90%;
+    width: 85%;
+    max-width: var(--large-content-max-width);
     margin: 0 auto;
     margin-top: 133px;
     margin-bottom: 107px;
@@ -1815,11 +1884,21 @@ img {
 }
 
 #footer .footer-content {
-    max-width: var(--footer-max-width);
+    max-width: var(--small-content-max-width);
     background-color: var(--sub-color);
     padding-top: var(--footer-content-top);
     padding-bottom: var(--footer-content-bottom);
-    width: 80%;
+    width: 75%;
+    margin: 0 auto;
+}
+
+#footer.large .footer-content {
+    max-width: var(--header-max-width);
+    width: var(--header-width);
+    transform: translateX(25px);
+    background-color: var(--sub-color);
+    padding-top: var(--footer-content-top);
+    padding-bottom: var(--footer-content-bottom);
     margin: 0 auto;
 }
 
