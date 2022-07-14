@@ -1,2 +1,1 @@
-# mzd-site
-Megazone Digital Website
+# MZD_Page

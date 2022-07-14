@@ -5,23 +5,22 @@
 
 #main {
     font-family: var(--main-font-family);
-    max-width: 1920px;
     width: 100%;
     margin: 0 auto;
     font-style: normal;
 }
 
 #content-right {
-    width: 83%;
-    max-width: var(--slider-max-width);
+    width: 100%;
+    max-width: var(--header-max-width);
     margin: 0 auto;
-    margin-right: 0;
+    padding-left: 135px;
 }
 
 /* Slider Style */
 
 #slider {
-    width: 100%;
+    width: 1460px;
 }
 
 #slider.fixed {
