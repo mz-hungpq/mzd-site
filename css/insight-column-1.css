@@ -4,11 +4,11 @@
 ------ */
 
 #column1-content {
+    font-family: var(--main-font-family);
     width: var(--page-max-width);
     margin: 0 auto;
     padding-top: 110px;
     color: #414141;
-    font-family: var(--main-font-family);
 }
 
 #column1-content .column1-content-title {
@@ -109,12 +109,12 @@
     line-height: 100%;
     background-color: #939393;
     transform: translateX(80px);
-    color: var(--white-color);
     display: flex;
     width: 112px;
     height: 52px;
     align-items: center;
     justify-content: center;
+    color: var(--white-color);
 }
 
 /* ------

@@ -1,16 +1,16 @@
 /* Footer Style */
 
 #footer {
+    font-family: var(--main-font-family);
     background-color: var(--sub-color);
     width: 100%;
-    font-family: var(--main-font-family);
 }
 
 #footer .footer-content {
     width: var(--page-max-width);
     background-color: var(--sub-color);
-    padding-top: var(--footer-content-top);
-    padding-bottom: var(--footer-content-bottom);
+    padding-top: 52px;
+    padding-bottom: 40px;
     margin: 0 auto;
 }
 
@@ -73,12 +73,12 @@
 }
 
 #footer span.page-list-button {
-    border: 3px solid var(--card-color);
     padding: 10px 80px 10px 10px;
     font-size: 20px;
     line-height: 24px;
     cursor: pointer;
     user-select: none;
+    border: 3px solid var(--card-color);
     color: var(--white-color);
 }
 
@@ -118,14 +118,14 @@
 #footer .page-card .info-button span {
     font-size: 17px;
     line-height: 100%;
-    background-color: var(--text-sub-color);
-    color: var(--white-color);
     display: flex;
     text-align: center;
     width: 224px;
     height: 60px;
     align-items: center;
     justify-content: center;
+    background-color: var(--text-sub-color);
+    color: var(--white-color);
 }
 
 #footer .page-on-top {

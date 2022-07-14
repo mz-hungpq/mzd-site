@@ -4,11 +4,11 @@
 ------ */
 
 #customer-introduction {
+    font-family: var(--main-font-family);
     width: var(--page-max-width);
     margin: 0 auto;
     margin-top: 133px;
     margin-bottom: 107px;
-    font-family: var(--main-font-family);
 }
 
 #customer-introduction .title {

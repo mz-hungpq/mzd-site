@@ -4,11 +4,11 @@
 ------ */
 
 #column2-content {
+    font-family: var(--main-font-family);
     width: var(--page-max-width);
     margin: 0 auto;
     padding-top: 120px;
     color: #414141;
-    font-family: var(--main-font-family);
 }
 
 #column2-content .column2-header {
@@ -87,11 +87,8 @@
 }
 
 #column2-content .column2-details .right svg {
-    margin-bottom: 88px;
-}
-
-#column2-content .column2-details .right svg.separate {
     margin-left: 80px;
+    margin-bottom: 88px;
 }
 
 #column2-content .insight-column2-1 .right .text {
@@ -210,12 +207,12 @@
     line-height: 100%;
     background-color: #939393;
     transform: translateX(80px);
-    color: var(--white-color);
     display: flex;
     width: 112px;
     height: 52px;
     align-items: center;
     justify-content: center;
+    color: var(--white-color);
 }
 
 /* ------

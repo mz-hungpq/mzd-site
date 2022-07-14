@@ -19,8 +19,8 @@
 #main .mzd-container {
     width: auto;
     display: flex;
-    margin-left: calc((100% - var(--page-max-width))/2 + 120px);
     overflow: hidden;
+    margin-left: calc((100% - var(--page-max-width))/2 + 120px);
 }
 
 /* Slider Style */
@@ -157,7 +157,7 @@
 #content .content-wrapper {
     width: 100%;
     display: flex;
-    justify-content: center;
+    justify-content: left;
     align-items: flex-start;
 }
 
@@ -202,9 +202,7 @@
 /* News Style */
 
 #news {
-    max-width: var(--page-max-width);
-    width: var(--header-width);
-
+    width: var(--page-max-width);
     margin: 0 auto;
     margin-top: 120px;
     margin-bottom: 165px;
@@ -253,9 +251,7 @@
 /* Populate Style */
 
 #populate {
-    max-width: var(--page-max-width);
-    width: var(--header-width);
-
+    width: var(--page-max-width);
     margin: 0 auto;
     margin-top: 170px;
     margin-bottom: 180px;
@@ -297,15 +293,13 @@
 
 #welcome {
     width: 100%;
-    background-color: var(--sub-color);
     padding-bottom: 60px;
     overflow: hidden;
+    background-color: var(--sub-color);
 }
 
 #welcome .welcome-wrapper {
-    max-width: var(--page-max-width);
-    width: var(--header-width);
-
+    width: var(--page-max-width);
     margin: 0 auto;
     font-weight: 400;
     margin-bottom: 60px;
@@ -344,14 +338,14 @@
 #welcome .wrapper-button span {
     font-size: 17px;
     line-height: 100%;
-    background-color: var(--text-sub-color);
-    color: var(--white-color);
     display: flex;
     text-align: center;
     width: 224px;
     height: 60px;
     align-items: center;
     justify-content: center;
+    background-color: var(--text-sub-color);
+    color: var(--white-color);
 }
 
 /* Welcome Style */

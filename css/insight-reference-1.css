@@ -4,11 +4,11 @@
 ------ */
 
 #reference-content {
+    font-family: var(--main-font-family);
     width: var(--page-max-width);
     margin: 0 auto;
     padding-top: 40px;
     color: #414141;
-    font-family: var(--main-font-family);
 }
 
 #reference-content .reference-content-title {

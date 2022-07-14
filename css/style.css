@@ -15,7 +15,6 @@
 
     --header-height: 127px;
     --header-content-height: 47px;
-    --header-content-top: 50px;
 
     --slider-image-width: 950px;
     --slider-image-height: 599px;
@@ -23,12 +22,9 @@
     --content-slide-width: 340px;
     --content-slide-height-long: 500px;
     --content-slide-height-short: 400px;
-    --content-slide-image-width: 278px;
+    --content-slide-image-width: 125px;
 
     --news-single-news-height: 248px;
-
-    --footer-content-top: 52px;
-    --footer-content-bottom: 40px;
 }
 
 * {

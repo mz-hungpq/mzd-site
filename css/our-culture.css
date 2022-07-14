@@ -4,11 +4,11 @@
 ------ */
 
 #constant-worries {
+    font-family: var(--main-font-family);
     width: var(--page-max-width);
     margin: 0 auto;
     margin-top: 125px;
     margin-bottom: 96px;
-    font-family: var(--main-font-family);
 }
 
 #constant-worries .worries-header {
@@ -50,10 +50,10 @@
 }
 
 #benefit {
+    font-family: var(--main-font-family);
     width: var(--page-max-width);
     margin: 0 auto;
     margin-bottom: 125px;
-    font-family: var(--main-font-family);
 }
 
 #benefit .main {
