@@ -11,7 +11,7 @@
     --white-color: #FFFFFF;
     --main-font-family: 'Inter', sans-serif;
 
-    --header-max-width: var(--header-width);
+    --header-max-width: 1460px;
     --header-height: 127px;
     --header-width: 1430px;
     --header-content-height: 47px;

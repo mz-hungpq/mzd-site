@@ -310,11 +310,11 @@
 
 #welcome .welcome-wrapper::after {
     content: "";
-    width: 100%;
+    width: 1000%;
     height: 100%;
     position: absolute;
     top: 0;
-    right: -100%;
+    right: -1000%;
     background-color: var(--card-color);
 }
 
