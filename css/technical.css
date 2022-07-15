@@ -1,0 +1,176 @@
+@import url(‘https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap’);
+#technical {
+    font-family: ‘Inter’, sans-serif;
+    overflow: hidden;
+    color: #414141;
+}
+
+#technical .mzd-header-introduce {
+    display: flex;
+    position: relative;
+}
+#technical .mzd-header-introduce, #technical .technical-comp-container{
+    width: 1460px;
+    margin: 0 auto;
+}
+
+#technical .mzd-header-introduce:after {
+    display: flex;
+    content:"";
+    position: absolute;
+    right: -100%;
+    top: 0;
+    width:100%;
+    height:100%;
+    background-color: #E7F8D1;
+}
+#technical .mzd-header-banner {
+    background-color: #E7F8D1;
+    width: 50%;
+}
+.mzd-tit-heading {
+    font-weight: 700;
+    font-size: 65px;
+    line-height: 79px;
+}
+
+.mzd-return {
+    font-weight: 400;
+    font-size: 29px;
+    line-height: 35px;
+}
+
+.mzd-description {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 39px;
+}
+
+.technical-comp-container {
+    margin-top: 107px !important;
+}
+
+.techical-content-column {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.content-item {
+    flex-basis: 31%;
+}
+
+.mzd-header-introduce .mzd-header-text {
+    width: 50%;
+}
+
+.mzd-title {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 39px;
+    color: #414141;
+}
+.techical-content-column .mzd-title .mzd-sub-title {
+    font-weight: 400;
+    font-size: 24px;
+    color: #414141;
+    opacity: 0.7;
+}
+
+ .mzd-content {
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 34px;
+    color: #414141;
+}
+
+.technical-comp-reference {
+    margin-top: 177px;
+}
+
+.technical-comp-reference {
+    display: flex;
+}
+
+.reference-text {
+    margin-left: 72px
+}
+
+.reference-text .reference {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    color: #414141;
+}
+
+.reference-text .mzd-content {
+    margin-top: 100px;
+}
+
+.platform-title {
+    margin-top: 127px;
+    text-align: center;
+}
+
+.platform-title-heading {
+    font-weight: 720;
+    font-size: 48px;
+    line-height: 58px;
+}
+
+.mzd-related {
+    margin-top: 100px;
+}
+
+.mzd-related .mzd-related-block {
+    display: flex;
+    justify-content: space-between;
+}
+
+.mzd-related-title {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    margin: 50px 0;
+}
+
+.related-title {
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 34px;
+}
+
+.platform-img {
+    text-align: center;
+}
+
+.digital-service-content {
+    display: flex;
+    gap: 20px;
+
+}
+
+.drive-conversion-title {
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 34px;
+    text-decoration-line: underline;
+}
+
+.drive-conversion-text {
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 27px;
+}
+
+.digital-service-column {
+    flex-basis: 33.3%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.pt-60 {
+    padding-top: 60px;
+}
+
