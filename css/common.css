@@ -1,16 +1,22 @@
 @import url(‘https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap’);
-#techandsv_home, #mgzdigital_home, #insight_home{
+#techandsv_home, #mgzdigital_home, #insight_home, #mgz_partner_home{
     font-family: ‘Inter’, sans-serif;
     overflow: hidden;
     color: #414141;
 }
-#techandsv_home .techandsv_container, #mgzdigital_home .mgzdigital_container{
+#techandsv_home .techandsv_container, #mgzdigital_home .mgzdigital_container, #mgz_partner_home .mgz_partner_container{
     width: 1460px;
     margin: 0 auto;
 }
-#techandsv_home .techandsv_title{
+#mgz_partner_home .mgz_partner_container {
+    padding: 20px;
+}
+#techandsv_home .techandsv_title {
     background-color: #E7F8D1;
     position: relative;
+    padding:28px 0;
+}
+#mgz_partner_home .mgz_partner_title {
     padding:28px 0;
 }
 #techandsv_home .techandsv_title:before {
@@ -31,18 +37,29 @@
     height:100%;
     background-color: #E7F8D1;
 }
-#techandsv_home #teachandsv_tit_heading {
+#techandsv_home #teachandsv_tit_heading, #mgz_partner_home .mgz_partner_tit_heading {
     font-size: 75px;
     font-weight: 700;
     color: #414141;
 }
-#techandsv_home .techandsv_title_des h3 {
+#mgz_partner_home .mgz_partner_tit_heading .br_cum {
+    color: #CBCBCB;
+    font-size: 24px;
+    font-weight: 400;
+}
+#techandsv_home .techandsv_title_des h3{
     font-size: 40px;
     font-weight: 700;
     margin-top: 150px;
     margin-bottom:0;
 }
-#techandsv_home .techandsv_title_des p {
+#mgz_partner_home .mgz_partner_title_des h3 {
+    font-size: 40px;
+    font-weight: 700;
+    margin-top: 80px;
+    margin-bottom: 0;
+}
+#techandsv_home .techandsv_title_des p, #mgz_partner_home .mgz_partner_title_des p {
     font-size: 32px;
     font-weight: 400;
 }
@@ -234,6 +251,11 @@
     background: rgba(203, 203, 203, 0.5);
     height: 100%;
     margin-top:100px;
+}
+#mgz_partner_home .mgz_partner_container_fw {
+    width: 100%;
+    background: rgba(203, 203, 203, 0.5);
+    height: 100%;
 }
 #mgzdigital_home .mgzdigital_content .mgzdigital_header_content .mgzdigital_teaser_content{
     width: 70%;
@@ -532,7 +554,6 @@
 #insight_home .insight_container h1 {
     font-weight: 700;
     font-size: 75px;
-    margin-left:200px;
 }
 #insight_home .insight_container p.insi_break_cum {
     font-weight: 400;
@@ -554,6 +575,10 @@
 }
 #insight_home .insight_content_des img {
     max-width: 1460px;
+}
+#insight_home .insight_content_des .insight_hashtag, #insight_home .insight_content_des .insight_share{
+    font-weight: 400;
+    font-size: 24px;
 }
 #insight_home .insight_content_slider_heading {
     font-weight: 400;
