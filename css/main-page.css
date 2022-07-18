@@ -84,7 +84,8 @@
 }
 
 #slider .slider-content {
-    padding: 80px 0;
+    padding-top: 80px;
+    padding-bottom: 168px;
     display: flex;
     align-items: center;
     gap: 64px;
@@ -132,7 +133,8 @@
 }
 
 #slider .slider-banner {
-    margin-top: 70px;
+    margin-top: 120px;
+    margin-bottom: 164px;
 }
 
 #slider .slider-banner .slick-list {
@@ -190,12 +192,12 @@
 .tech-content {
     background-color: var(--sub-gray-color);
     width: 100%;
-    margin-top: 150px;
 }
 
 #content {
     width: 100%;
-    padding: 80px 0;
+    padding-top: 80px;
+    padding-bottom: 96px;
     font-weight: 400;
 }
 
@@ -291,7 +293,7 @@
 #news {
     width: var(--page-max-width);
     margin: 0 auto;
-    margin-top: 120px;
+    margin-top: 184px;
     margin-bottom: 165px;
     font-weight: 400;
 }

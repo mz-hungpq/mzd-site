@@ -89,8 +89,8 @@
 #insight-content .insight-study-1 {
     width: 80%;
     margin: 0 auto;
-    margin-top: 60px;
-    margin-bottom: 60px;
+    margin-top: 125px;
+    margin-bottom: 110px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -107,8 +107,8 @@
 
 #insight-content .insight-study-2 {
     width: 100%;
-    margin-top: 60px;
-    margin-bottom: 60px;
+    margin-top: 50px;
+    margin-bottom: 150px;
     display: grid;
     align-items: center;
     justify-content: center;
@@ -136,7 +136,7 @@
     width: 90%;
     margin: 0 auto;
     margin-top: 60px;
-    margin-bottom: 60px;
+    margin-bottom: 140px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -148,17 +148,30 @@
 #insight-content .insight-study-6 {
     width: 100%;
     margin: 0 auto;
-    margin-top: 60px;
-    margin-bottom: 60px;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
+#insight-content .insight-study-4 {
+    margin-top: 100px;
+    margin-bottom: 150px;
+}
+
+#insight-content .insight-study-5 {
+    margin-top: 80px;
+    margin-bottom: 164px;
+}
+
+#insight-content .insight-study-6 {
+    margin-top: 60px;
+    margin-bottom: 127px;
+}
+
 #insight-content .insight-study-7 {
     width: 100%;
-    margin-top: 60px;
-    margin-bottom: 60px;
+    margin-top: 180px;
+    margin-bottom: 143px;
 }
 
 #insight-content .insight-study-7 .video {
@@ -219,7 +232,7 @@
     font-family: var(--main-font-family);
     width: var(--page-max-width);
     margin: 0 auto;
-    margin-top: 100px;
+    margin-top: 145px;
 }
 
 #related-content .related-title {
@@ -232,7 +245,7 @@
 #related-content .related-list {
     width: 105%;
     margin-top: 60px;
-    margin-bottom: 200px;
+    margin-bottom: 100px;
     display: flex;
     align-items: flex-start;
     justify-content: space-around;
