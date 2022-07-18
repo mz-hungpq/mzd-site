@@ -20,7 +20,7 @@
     width: auto;
     display: flex;
     overflow: hidden;
-    margin-left: calc((100% - var(--page-max-width))/2 + 120px);
+    margin-left: calc((100% - var(--page-max-width))/2 + 100px);
 }
 
 /* Slider Style */
