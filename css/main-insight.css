@@ -9,7 +9,7 @@
     font-family: var(--main-font-family);
     background-color: #E8E7E7;
     width: 100%;
-    padding: 70px 0;
+    padding:100px 0px 70px 0px;
     font-weight: 700;
 }
 
@@ -243,7 +243,6 @@
 }
 
 #related-content .related-list {
-    width: 105%;
     margin-top: 60px;
     margin-bottom: 100px;
     display: flex;
