@@ -19,7 +19,7 @@ const MZDPage = {
     },
 
     //Main Page Technology Slider
-    subSlider: function () {
+    techSlider: function () {
         $('#content .content-list').slick({
             infinite: true,
             speed: 500,
@@ -27,6 +27,20 @@ const MZDPage = {
             slidesToScroll: 2,
             arrows: false,
             variableWidth: true,
+        })
+    },
+
+    //Main Page Branch Slider
+    branchSlider: function () {
+        $('#slider .slider-banner').slick({
+            infinite: false,
+            speed: 500,
+            slidesToShow: 6,
+            slidesToScroll: 1,
+            arrows: true,
+            variableWidth: false,
+            prevArrow: "<button type='button' class='slick-prev'></button>",
+            nextArrow: "<button type='button' class='slick-next'></button>"
         })
     },
 
@@ -85,7 +99,8 @@ const MZDPage = {
 
     init: function () {
         this.mainSlider();
-        this.subSlider();
+        this.techSlider();
+        this.branchSlider();
         this.scrollToTop();
         this.changeTypeNews();
         this.scrollEffect();

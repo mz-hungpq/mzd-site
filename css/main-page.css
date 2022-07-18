@@ -25,6 +25,32 @@
 
 /* Slider Style */
 
+#video-intro {
+    background-color: #E6F8D1;
+    width: 100%;
+    padding-top: 100px;
+    padding-bottom: 200px;
+}
+
+#video-intro .video-title {
+    font-size: 56px;
+    line-height: 68px;
+    color: #000000;
+    margin-bottom: 120px;
+}
+
+#video-intro .video-title .bold {
+    font-weight: 700;
+}
+
+#video-intro .video-title .light {
+    font-weight: 400;
+}
+
+/* Slider Style */
+
+/* Slider Style */
+
 #slider {
     width: 100%;
 }
@@ -36,9 +62,9 @@
 #slider .slider-title {
     padding: 40px 0 20px 0;
     font-weight: 400;
-    font-size: 56px;
-    line-height: 68px;
-    color: var(--text-color);
+    font-size: 40px;
+    line-height: 48px;
+    color: #414141;
 }
 
 #slider .slider-title .bold {
@@ -46,7 +72,8 @@
 }
 
 #slider .slider-title .light {
-    font-weight: 400;
+    font-size: 32px;
+    line-height: 38px;
 }
 
 #slider .slider-sub-title {
@@ -57,7 +84,7 @@
 }
 
 #slider .slider-content {
-    padding: 50px 0;
+    padding: 80px 0;
     display: flex;
     align-items: center;
     gap: 64px;
@@ -98,19 +125,51 @@
 }
 
 #slider .slider-banner {
-    height: 750px;
-    max-height: 750px;
-    margin-top: 130px;
+    margin-top: 70px;
+}
+
+#slider .slider-banner .slick-list {
+    width: 95%;
+    margin: 0 auto;
+}
+
+#slider .slider-banner .slick-track {
+    display: flex;
+    align-items: center;
+    gap: 70px;
+}
+
+#slider .slider-banner .slick-arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 2;
+    width: 90px;
+    height: 15px;
+    background-repeat: no-repeat;
+    background-color: #FFFFFF;
+    border: none;
+    cursor: pointer;
+}
+
+#slider .slider-banner .slick-prev {
+    left: 0;
+    background-image: url('../assets/images/home/arrows/prev.png');
+}
+
+#slider .slider-banner .slick-next {
+    right: 0;
+    background-image: url('../assets/images/home/arrows/next.png');
 }
 
 /* Slider Style */
 
 /* Content Style */
 
-#tech-content {
+.tech-content {
     background-color: var(--sub-gray-color);
     width: 100%;
-    margin-top: 200px;
+    margin-top: 150px;
 }
 
 #content {
