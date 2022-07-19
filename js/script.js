@@ -30,8 +30,8 @@ const MZDPage = {
         })
     },
 
-    //Main Page Branch Slider
-    branchSlider: function () {
+    //Main Page Brand Slider
+    brandSlider: function () {
         $('#slider .slider-banner').slick({
             infinite: false,
             speed: 500,
@@ -97,12 +97,20 @@ const MZDPage = {
         })
     },
 
+    //Footer Page List Toggle
+    toogleFooterPageList: function () {
+        $('#footer .footer-bottom .page-theme .theme-list').click(function () {
+            $(this).toggleClass('active');
+        })
+    },
+
     init: function () {
         this.mainSlider();
         this.techSlider();
-        this.branchSlider();
+        this.brandSlider();
         this.scrollToTop();
         this.changeTypeNews();
-        this.scrollEffect();
+        this.toogleFooterPageList();
+        // this.scrollEffect();
     }
 }

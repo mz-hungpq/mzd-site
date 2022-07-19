@@ -1,20 +1,33 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
 
 :root {
-    --main-color: #FFFFFF;
-    --sub-color: #CBCBCB;
-    --sub-gray-color: #D9D9D9;
-    --text-color: #000000;
-    --text-sub-color: #454545;
-    --text-sub-color-2: #414141;
-    --card-color: #E5E5E5;
-    --white-color: #FFFFFF;
-    --main-font-family: 'Inter', sans-serif;
+    /* Color */
+    --bg-color: #F7F8F9;
+    --line-color: #E5E5E5;
 
-    --page-max-width: 1460px;
+    --mzd-black-color: #141414;
+    --mzd-black-color-2: #333333;
+    --mzd-black-color-3: #666666;
+    --mzd-black-color-4: #999999;
+    --mzd-black-color-5: #CCCCCC;
+    --mzd-black-color-6: #FFFFFF;
 
-    --header-height: 127px;
-    --header-content-height: 47px;
+    --mzd-blue-color: #0B7BFF;
+
+    /* Font */
+    --main-font-family: pretendard, sans-serif;
+    --sub-font-family: 'Inter', sans-serif;
+    --font-weigth-regular: 400;
+    --font-weigth-semi-bold: 600;
+    --font-weigth-bold: 700;
+
+    /* Page Width */
+    --page-max-width: 1430px;
+
+    /* Header Height */
+    --header-height: 120px;
+    --header-height-big: 1080px;
+
 
     --slider-image-width: 950px;
     --slider-image-height: 599px;
@@ -34,10 +47,52 @@
 }
 
 body {
-    background-color: var(--main-color);
+    background-color: var(--bg-color);
 }
 
 a {
     text-decoration: none;
-    color: var(--text-color);
+    color: var(--mzd-black-color);
+}
+
+h1 {
+    font-size: 68px;
+    line-height: 140%;
+    letter-spacing: -3%;
+}
+
+h2 {
+    font-size: 56px;
+    line-height: 140%;
+    letter-spacing: -3%;
+}
+
+h3 {
+    font-size: 46px;
+    line-height: 140%;
+    letter-spacing: -3%;
+}
+
+h4 {
+    font-size: 36px;
+    line-height: 140%;
+    letter-spacing: -3%;
+}
+
+h5 {
+    font-size: 32px;
+    line-height: 140%;
+    letter-spacing: -3%;
+}
+
+h6 {
+    font-size: 28px;
+    line-height: 140%;
+    letter-spacing: -3%;
+}
+
+h7 {
+    font-size: 24px;
+    line-height: 140%;
+    letter-spacing: -3%;
 }

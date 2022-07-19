@@ -1,0 +1,47 @@
+/* Start Reference Insight Detail 1 Page */
+/* ------
+------
+------ */
+
+#project {
+    font-family: var(--main-font-family);
+    width: var(--page-max-width);
+    margin: 0 auto;
+    margin-top: 251px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 208px;
+}
+
+#project .left .title {
+    font-weight: 700;
+    font-size: 58px;
+    line-height: 100%;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+#project .right .content {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 170%;
+    letter-spacing: -0.03em;
+    color: #333333;
+}
+
+#trend {
+    font-family: var(--main-font-family);
+    width: var(--page-max-width);
+    margin: 0 auto;
+    margin-top: 251px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 208px;
+}
+
+/* ------
+------
+------ */
+/* End Reference Insight Detail 1 Page */

@@ -104,7 +104,7 @@
     font-size: 36px;
     line-height: 100%;
     letter-spacing: -0.03em;
-    color: var(--text-color);
+    color: var(--mzd-black-color);
 }
 
 #column2-content .insight-column2-1,
@@ -212,7 +212,7 @@
     height: 52px;
     align-items: center;
     justify-content: center;
-    color: var(--white-color);
+    color: var(--mzd-black-color-6);
 }
 
 /* ------

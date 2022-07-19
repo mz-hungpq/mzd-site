@@ -14,18 +14,27 @@
     <script src="./js/jquery/jquery-3.6.0.min.js"></script>
     <script type="text/javascript" src="./js/slick/slick.min.js"></script>
     <script src="./js/script.js"></script>
+    <script>
+        (function (d) {
+            var config = {
+                kitId: 'tgn1glu',
+                scriptTimeout: 3000,
+                async: true
+            },
+                h = d.documentElement, t = setTimeout(function () { h.className = h.className.replace(/\bwf-loading\b/g, "") + " wf-inactive"; }, config.scriptTimeout), tk = d.createElement("script"), f = false, s = d.getElementsByTagName("script")[0], a; h.className += " wf-loading"; tk.src = 'https://use.typekit.net/' + config.kitId + '.js'; tk.async = true; tk.onload = tk.onreadystatechange = function () { a = this.readyState; if (f || a && a != "complete" && a != "loaded") return; f = true; clearTimeout(t); try { Typekit.load(config) } catch (e) { } }; s.parentNode.insertBefore(tk, s)
+        })(document);
+    </script>
 </head>
 
 <body>
     <div id="main">
 
-        <div id="header" class="header-green">
+        <div id="header" class="header-big">
             <div class="header-content">
                 <div class="logo-container">
-                    <div class="logo">Logo</div>
                     <a href="/index.html">
-                        <div class="logo-image">MEGAZONE</div>
-                        <div class="logo-image">D I G I T A L</div>
+                        <img src="./assets/logo/mgz-logo-white.png" alt="" class="logo-white">
+                        <img src="./assets/logo/mgz-logo.png" alt="">
                     </a>
                 </div>
 
@@ -36,6 +45,14 @@
                     <li><a href="#">인재영입</a></li>
                 </ul>
             </div>
+        </div>
+        <div class="header-banner">
+            <h2 class="title">
+                우리는 글로벌 기준의 다양한 방법론으로
+            </h2>
+            <h2 class="title">
+                기업의 디지털 전환을 돕는 전문가 그룹입니다.
+            </h2>
         </div>
 
         <div id="video-intro">
@@ -323,8 +340,10 @@
                 <div class="footer-top">
                     <div class="page-list">
                         <ul id="footer-nav">
-                            <li class="has-child">
-                                <a href="#">기술과 서비스</a>
+                            <li class="child">
+                                <a class="child" href="#">
+                                    <h6 class="text">기술과 서비스</h6>
+                                </a>
                                 <ul id="footer-subnav">
                                     <li><a href="#">전략 컨설팅</a></li>
                                     <li><a href="#">기술 역량</a></li>
@@ -332,64 +351,77 @@
                                     <li><a href="#">글로벌 기술 파트너</a></li>
                                 </ul>
                             </li>
-                            <li class="has-child">
-                                <a href="#">메가존.디지털</a>
+                            <li class="child">
+                                <a class="child" href="#">
+                                    <h6 class="text">인사이트</h6>
+                                </a>
+                            </li>
+                        </ul>
+                        <ul id="footer-nav">
+                            <li class="child">
+                                <a class="child" href="#">
+                                    <h6 class="text">메가존.디지털</h6>
+                                </a>
                                 <ul id="footer-subnav">
                                     <li><a href="#">뉴스</a></li>
                                     <li><a href="#">어워즈</a></li>
                                     <li><a href="#">고객사 소개</a></li>
                                 </ul>
                             </li>
-                            <li><a href="#">인사이트</a></li>
-                            <li class="has-child">
-                                <a href="#">인재영입</a>
+                            <li class="child">
+                                <a class="child" href="#">
+                                    <h6 class="text">인재영입</h6>
+                                </a>
                                 <ul id="footer-subnav">
                                     <li><a href="#">우리의 문화</a></li>
                                 </ul>
                             </li>
-                            <li><a href="#">우리의 문화</a></li>
+                            <li class="child">
+                                <a class="child" href="#">
+                                    <h6 class="text">우리의 문화</h6>
+                                </a>
+                            </li>
                         </ul>
-                        <span class="page-list-button">패밀리 사이트</span>
                     </div>
                     <div class="page-info">
-                        <div class="page-card">
-                            <div class="info-title">지금, 메가존.디지털에</div>
-                            <div class="info-title">문의하세요.</div>
-                            <div class="info-content separate">프로젝트, 파트너십, 입사지원, 기타 문의가 있으시면</div>
-                            <div class="info-content">지금 바로 메가존.디지털에 연락하세요.</div>
-                            <div class="info-button">
-                                <span>문의하기</span>
-                            </div>
-                        </div>
-                        <div class="page-on-top">
-                            <img src="./assets/icons/scroll-on-top.png" alt="Scroll on Top">
+                        <h4 class="info-title">지금, 메가존.디지털에 문의하세요.</h4>
+                        <div class="info-content">프로젝트, 파트너십, 입사지원, 기타 문의가 있으시면, 지금 바로</div>
+                        <div class="info-content">메가존.디지털에 연락하세요.</div>
+                        <div class="info-button">
+                            <span>문의하기</span>
                         </div>
                     </div>
                 </div>
                 <div class="footer-bottom">
-                    <div class="logo-container">
-                        <div class="logo">Logo</div>
-                        <a href="/index.html">
-                            <div class="logo-image">MEGAZONE</div>
-                            <div class="logo-image">D I G I T A L</div>
-                        </a>
-                    </div>
                     <div class="page-address">
+                        <div class="privacy">
+                            <a href="#">개인정보 처리방침</a>
+                            <a href="#">회사소개서 다운로드</a>
+                        </div>
                         <div class="page-address-content">
                             <div class="single-content">
-                                메가존.디지털(주) 대표자명 : 장지황
+                                메가존.디지털(주) 대표이사 : 장지황 사업자번호 : 214-86-79342 서울특별시 강남구 논현로85길 46 메가존빌딩
                             </div>
-                            <div class="single-content">
-                                (06235) 서울특별시 강남구 논현로85길 46 메가존빌딩 사업자등록번호 : 214-86-79342
-                            </div>
-                            <div class="single-content">
-                                TEL : 82 (0)2 2109 2500 | FAX : 82 (0)2 2051 0102 | E-mail : mzd@megazone.digital
-                            </div>
-                            <div class="single-content">
-                                Copyright 2022 ⓒ MEGAZONE.DIGITAL Corp. All Rights Reserved
+                            <div class="single-content bold">
+                                TEL : 82 . 2 . 2109 . 2500 FAX : 82 . 02 . 2051 . 0102 E-mail : mzd@megazone.digital
                             </div>
                         </div>
-                        <div class="page-copyright">회사소개서 다운로드</div>
+                    </div>
+                    <div class="page-theme">
+
+                        <div class="theme-list">
+                            <div class="text">Family Site</div>
+                            <div class="icon">
+                                <img src="./assets/arrows/arrow_up.png" alt="">
+                            </div>
+                            <ul class="theme-list-choose">
+                                <li><a href="#">메가존.디지털</a></li>
+                                <li><a href="#">펜타클</a></li>
+                                <li><a href="#">MEGAZONE CLOUD</a></li>
+                            </ul>
+                        </div>
+
+                        <div class="copyright">ⓒ 1998-2022 MEGAZONE.DIGITAL All Rights Reserved</div>
                     </div>
                 </div>
             </div>

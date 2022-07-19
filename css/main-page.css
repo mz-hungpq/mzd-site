@@ -80,7 +80,7 @@
     font-weight: 400;
     font-size: 21px;
     line-height: 25px;
-    color: var(--text-color);
+    color: var(--mzd-black-color);
 }
 
 #slider .slider-content {
@@ -121,7 +121,7 @@
     padding: 1em 1.5em;
     font-size: 23px;
     line-height: 28px;
-    color: var(--text-color);
+    color: var(--mzd-black-color);
 }
 
 #slider .slider-text .main-text {
@@ -135,7 +135,8 @@
 #slider .slider-banner {
     margin-top: 120px;
     margin-bottom: 164px;
-    margin-right: 90px;margin-left: 90px;
+    margin-right: 90px;
+    margin-left: 90px;
 }
 
 #slider .slider-banner .slick-list {
@@ -203,14 +204,14 @@
 #content .content-description {
     font-size: 17px;
     line-height: 21px;
-    color: var(--text-color);
+    color: var(--mzd-black-color);
 }
 
 #content .content-title {
     margin-top: 25px;
     font-size: 53px;
     line-height: 64px;
-    color: var(--text-color);
+    color: var(--mzd-black-color);
 }
 
 #content .content-title .bold {
@@ -300,14 +301,14 @@
 #news .news-desc {
     font-size: 20px;
     line-height: 24px;
-    color: var(--text-color);
+    color: var(--mzd-black-color);
 }
 
 #news .news-title {
     font-size: 56px;
     line-height: 68px;
     margin-top: 20px;
-    color: var(--text-color);
+    color: var(--mzd-black-color);
 }
 
 #news .news-list {
@@ -338,7 +339,7 @@
 #news .news-content {
     font-size: 22px;
     line-height: 27px;
-    color: var(--text-color);
+    color: var(--mzd-black-color);
 }
 
 /* News Style */
@@ -357,7 +358,7 @@
     font-size: 56px;
     line-height: 68px;
     margin-bottom: 80px;
-    color: var(--text-color);
+    color: var(--mzd-black-color);
 }
 
 #populate .populate-title .light {
@@ -405,7 +406,7 @@
     margin: 0 auto;
     font-weight: 400;
     margin-bottom: 60px;
-    background-color: var(--card-color);
+    background-color: var(--line-color);
     padding: 150px 0 120px 120px;
     position: relative;
 }
@@ -417,14 +418,14 @@
     position: absolute;
     top: 0;
     right: -1000%;
-    background-color: var(--card-color);
+    background-color: var(--line-color);
 }
 
 #welcome .welcome-content {
     font-weight: 400;
     font-size: 60px;
     line-height: 73px;
-    color: var(--text-color);
+    color: var(--mzd-black-color);
 }
 
 #welcome .wrapper-button {
@@ -447,7 +448,7 @@
     align-items: center;
     justify-content: center;
     background-color: var(--text-sub-color);
-    color: var(--white-color);
+    color: var(--mzd-black-color-6);
 }
 
 /* Welcome Style */
