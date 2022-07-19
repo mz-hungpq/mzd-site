@@ -18,29 +18,15 @@ const MZDPage = {
         });
     },
 
-    //Main Page Technology Slider
-    techSlider: function () {
-        $('#content .content-list').slick({
-            infinite: true,
-            speed: 500,
-            slidesToShow: 3,
-            slidesToScroll: 2,
-            arrows: false,
-            variableWidth: true,
-        })
-    },
-
     //Main Page Brand Slider
     brandSlider: function () {
-        $('#slider .slider-banner').slick({
-            infinite: false,
+        $('#brand .slider-brand').slick({
+            infinite: true,
             speed: 500,
             slidesToShow: 6,
-            slidesToScroll: 1,
-            arrows: true,
-            variableWidth: false,
-            prevArrow: "<button type='button' class='slick-prev'></button>",
-            nextArrow: "<button type='button' class='slick-next'></button>"
+            slidesToScroll: 4,
+            arrows: false,
+            variableWidth: true,
         })
     },
 
@@ -106,7 +92,6 @@ const MZDPage = {
 
     init: function () {
         this.mainSlider();
-        this.techSlider();
         this.brandSlider();
         this.scrollToTop();
         this.changeTypeNews();

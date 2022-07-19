@@ -29,13 +29,9 @@
     --header-height-big: 1080px;
 
 
-    --slider-image-width: 950px;
-    --slider-image-height: 599px;
+    --slider-image-width: 1200px;
 
-    --content-slide-width: 340px;
-    --content-slide-height-long: 500px;
-    --content-slide-height-short: 400px;
-    --content-slide-image-width: 125px;
+    --content-slide-width: 315px;
 
     --news-single-news-height: 248px;
 }
@@ -47,7 +43,7 @@
 }
 
 body {
-    background-color: var(--bg-color);
+    background-color: var(--mzd-black-color-6);
 }
 
 a {
@@ -87,12 +83,6 @@ h5 {
 
 h6 {
     font-size: 28px;
-    line-height: 140%;
-    letter-spacing: -3%;
-}
-
-h7 {
-    font-size: 24px;
     line-height: 140%;
     letter-spacing: -3%;
 }

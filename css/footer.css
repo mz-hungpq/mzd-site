@@ -236,17 +236,27 @@
 #footer .page-theme .theme-list {
     width: 279px;
     height: 48px;
+    margin-bottom: 19px;
+    background-color: transparent;
+    position: relative;
+}
+
+#footer .page-theme .theme-list .text-wrapper {
+    width: 100%;
+    height: 100%;
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 16px 20px;
-    margin-bottom: 19px;
     background-color: transparent;
     border: 1px solid var(--mzd-black-color-3);
-    position: relative;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
 }
 
-#footer .page-theme .theme-list.active {
+#footer .page-theme .theme-list.active .text-wrapper {
     background-color: var(--mzd-black-color-2);
     border: 1px solid var(--mzd-black-color-2);
 }
@@ -270,6 +280,8 @@
     height: 20px;
     transform: rotateX(0deg);
     transition: 0.5s;
+    cursor: pointer;
+    user-select: none;
 }
 
 #footer .page-theme .theme-list.active .icon {
@@ -283,29 +295,36 @@
     list-style-type: none;
     top: 0;
     left: 0;
-    transform: translateX(-1px) translateY(0);
+    transform: translateY(0);
     opacity: 0;
     visibility: hidden;
     transition: 0.5s;
     animation: list-down 0.5s linear;
+    z-index: 1;
 }
 
 @keyframes list-down {
     0% {
-        transform: translateX(-1px) translateY(-100%);
+        transform: translateY(-100%);
+        opacity: 1;
+        visibility: visible;
+    }
+
+    90% {
+        transform: translateY(0);
         opacity: 1;
         visibility: visible;
     }
 
     100% {
-        transform: translateX(-1px) translateY(0);
+        transform: translateY(0);
         opacity: 0;
         visibility: hidden;
     }
 }
 
 #footer .theme-list.active ul.theme-list-choose {
-    transform: translateX(-1px) translateY(-100%);
+    transform: translateY(-100%);
     opacity: 1;
     visibility: visible;
     animation: list-up 0.5s linear;
@@ -313,13 +332,19 @@
 
 @keyframes list-up {
     0% {
-        transform: translateX(-1px) translateY(0);
+        transform: translateY(0);
         opacity: 0;
         visibility: hidden;
     }
 
+    10% {
+        transform: translateY(0);
+        opacity: 1;
+        visibility: visible;
+    }
+
     100% {
-        transform: translateX(-1px) translateY(-100%);
+        transform: translateY(-100%);
         opacity: 1;
         visibility: visible;
     }
