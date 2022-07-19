@@ -13,7 +13,7 @@
 #header.fixed {
     position: fixed;
     top: 0;
-    z-index: 1;
+    z-index: 3;
     box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.4);
     animation: header-show 0.35s linear;
 }
@@ -36,6 +36,15 @@
     background-color: #CBCBCB;
 }
 
+#header.fixed.header-green,
+#header.fixed.header-gray {
+    background-color: #FFFFFF;
+}
+
+#header.header-gray {
+    background-color: #CBCBCB;
+}
+
 #header .header-content {
     height: var(--header-content-height);
     background-color: var(--main-color);
@@ -46,6 +55,11 @@
     justify-content: space-between;
     align-items: center;
     font-weight: 400;
+}
+
+#header.fixed.header-green .header-content,
+#header.fixed.header-gray .header-content {
+    background-color: #FFFFFF;
 }
 
 #header.header-green .header-content {

@@ -7,7 +7,7 @@
     font-family: var(--main-font-family);
     width: var(--page-max-width);
     margin: 0 auto;
-    padding-top: 110px;
+    padding-top: 170px;
     color: #414141;
 }
 
@@ -46,8 +46,8 @@
 #column1-content .insight-column1-2 {
     width: 77%;
     margin: 0 auto;
-    margin-top: 100px;
-    margin-bottom: 85px;
+    margin-top: 70px;
+    margin-bottom: 30px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -56,8 +56,8 @@
 #column1-content .insight-column1-3 {
     width: 100%;
     margin: 0 auto;
-    margin-top: 100px;
-    margin-bottom: 85px;
+    margin-top: 20px;
+    margin-bottom: 65px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -66,8 +66,8 @@
 #column1-content .insight-column1-4 {
     width: 100%;
     margin: 0 auto;
-    margin-top: 100px;
-    margin-bottom: 85px;
+    margin-top: 30px;
+    margin-bottom: 75px;
     display: flex;
     align-items: center;
     justify-content: center;

@@ -35,6 +35,13 @@
     justify-content: center;
 }
 
+#customer-introduction .customer-list .customer img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
 /* ------
 ------
 ------ */

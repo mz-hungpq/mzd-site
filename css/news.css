@@ -22,6 +22,17 @@
     justify-content: left;
 }
 
+#news-cover .cover-image {
+    display: flex;
+}
+
+#news-cover .cover-image img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
 #news-cover .cover-text .article {
     font-weight: 400;
     font-size: 24px;
@@ -173,6 +184,17 @@
 
 #news-list .news-text {
     flex: 1;
+}
+
+#news-list .news-image {
+    display: flex;
+}
+
+#news-list .news-image img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
 #news-list .news-text .news-type {

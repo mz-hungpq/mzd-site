@@ -7,13 +7,13 @@
     font-family: var(--main-font-family);
     width: var(--page-max-width);
     margin: 0 auto;
-    padding-top: 40px;
+    padding-top: 20px;
     color: #414141;
 }
 
 #reference-content .reference-content-title {
-    margin-bottom: 50px;
-    margin-top: 100px;
+    margin-bottom: 70px;
+    margin-top: 130px;
     font-weight: 700;
     font-size: 40px;
     line-height: 48px;
@@ -28,8 +28,8 @@
 #reference-content .insight-reference1-1 {
     width: 50%;
     margin: 0 auto;
-    margin-top: 60px;
-    margin-bottom: 490px;
+    margin-top: 100px;
+    margin-bottom: 590px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -82,17 +82,16 @@
     display: flex;
     align-items: flex-start;
     justify-content: space-around;
-    gap: 44px;
 }
 
 #reference-content .insight-reference1-4 {
     width: 100%;
-    margin-top: 60px;
+    margin-top: 200px;
     margin-bottom: 60px;
 }
 
 #reference-content .insight-reference1-4 .video {
-    width: 105%;
+    width: 100%;
     display: flex;
     justify-content: right;
     gap: 32px;

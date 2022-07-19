@@ -24,7 +24,7 @@
 }
 
 #constant-worries .worries-list {
-    width: 105%;
+    width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
@@ -40,6 +40,13 @@
 
 #constant-worries .single-worries .worries-image {
     padding-bottom: 54px;
+}
+
+#constant-worries .single-worries .worries-image img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
 #constant-worries .single-worries .worries-text {
