@@ -274,20 +274,6 @@
     transform: translateX(calc((100% - var(--page-max-width))/2 + 20px));
 }
 
-#brand .slider-brand.active {
-    animation: slide 10s linear infinite;
-}
-
-@keyframes slide {
-    0% {
-        transform: translateX(calc((100% - var(--page-max-width))/2 + 20px));
-    }
-
-    100% {
-        transform: translateX(-100%);
-    }
-}
-
 #brand .slick-track {
     display: flex;
     align-items: center;

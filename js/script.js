@@ -132,19 +132,23 @@ const MZDPage = {
             }
         });
         //Main brand slide
+        const branSlideAnimate = document.querySelector('#brand .slider-brand').animate([
+            { transform: 'translateX(-100%)' }
+        ], {
+            duration: 20000,
+            iterations: Infinity
+        });
+        branSlideAnimate.pause();
 
         $(document).scroll(function () {
             const brandSlidePostition = $('#brand .slider-brand').offset().top;
             const currentPosition = $(window).scrollTop();
-
-            console.log(brandSlidePostition);
-            console.log(currentPosition);
             if (currentPosition > brandSlidePostition - 500 && currentPosition < brandSlidePostition + 300) {
                 setTimeout(function () {
-                    $('#brand .slider-brand').addClass('active');
+                    branSlideAnimate.play();
                 }, 500)
             } else {
-                $('#brand .slider-brand').removeClass('active');
+                branSlideAnimate.pause();
             }
         });
     },

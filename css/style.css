@@ -87,3 +87,22 @@ h6 {
     line-height: 140%;
     letter-spacing: -3%;
 }
+
+.btn-next::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: -30px;
+    width: 22px;
+    height: 22px;
+    background-image: url(../assets/arrows/foward-gray-arrow.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    transition: 0.5s;
+}
+
+.btn-next:hover::after {
+    background-image: url(../assets/arrows/foward-blue-arrow.png);
+    transform: translateX(5px) translateY(-50%);
+}
