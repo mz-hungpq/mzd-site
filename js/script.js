@@ -7,7 +7,7 @@ const MZDPage = {
     //Main Page Slider
     mainSlider: function () {
         var sliderSettings = {
-            infinite: true,
+            infinite: false,
             speed: 500,
             slidesToShow: 1,
             slidesToScroll: 1,
@@ -43,7 +43,7 @@ const MZDPage = {
             slidesToShow: 1,
             slidesToScroll: 1,
             initialSlide: 1
-        })
+        });
     },
 
     //Scroll to Top
