@@ -93,6 +93,11 @@
     transform: translateY(-10px);
 }
 
+#header img,
+#header .logo-white {
+    transform: translateY(-10px);
+}
+
 #header.header-big .logo-white {
     opacity: 1;
     visibility: visible;

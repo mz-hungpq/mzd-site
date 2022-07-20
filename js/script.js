@@ -11,10 +11,13 @@ const MZDPage = {
             speed: 500,
             slidesToShow: 1,
             slidesToScroll: 1,
-            arrows: false,
+            arrows: true,
             variableWidth: true,
             autoplay: true,
             autoplaySpeed: 4000,
+            prevArrow: '<button class="slide-arrow prev-arrow"></button>',
+            nextArrow: '<button class="slide-arrow next-arrow"></button>',
+            dots: true
         });
     },
 
