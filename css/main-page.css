@@ -70,13 +70,30 @@
 }
 
 #slider .slider-content .prev-arrow {
-    display: none;
+    top: 50%;
+    transform: translateY(-50%) rotateY(180deg);
+    left: 10px;
+    background-image: url('../assets/arrows/right_arrow.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    width: 104px;
+    height: 65px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    transition: 0.5s;
+    z-index: 2;
+}
+
+#slider .slider-content .prev-arrow:hover {
+    background-image: url('../assets/arrows/right_arrow_blue.png');
 }
 
 #slider .slider-content .next-arrow {
     top: 50%;
     transform: translateY(-50%);
-    right: 100px;
+    right: 10px;
     background-image: url('../assets/arrows/right_arrow.png');
     background-repeat: no-repeat;
     background-position: center center;
@@ -96,8 +113,8 @@
 #slider .slider-content ul.slick-dots {
     position: absolute;
     display: inherit;
-    bottom: 0;
-    left: 50%;
+    bottom: 15px;
+    left: 70%;
     transform: translateX(-50%);
     list-style-type: none;
     gap: 12px;

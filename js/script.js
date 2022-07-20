@@ -13,11 +13,10 @@ const MZDPage = {
             slidesToScroll: 1,
             arrows: true,
             variableWidth: true,
-            autoplay: true,
-            autoplaySpeed: 4000,
             prevArrow: '<button class="slide-arrow prev-arrow"></button>',
             nextArrow: '<button class="slide-arrow next-arrow"></button>',
-            dots: true
+            dots: true,
+            centerMode: true,
         });
     },
 
@@ -25,11 +24,15 @@ const MZDPage = {
     brandSlider: function () {
         $('#brand .slider-brand').slick({
             infinite: true,
-            speed: 500,
-            slidesToShow: 6,
-            slidesToScroll: 4,
+            speed: 2000,
             arrows: false,
             variableWidth: true,
+            autoplay: true,
+            autoplaySpeed: 0,
+            cssEase: 'linear',
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            initialSlide: 1
         })
     },
 
@@ -101,7 +104,6 @@ const MZDPage = {
             $(this).removeClass('appear');
             $(this).removeClass('disappear');
         })
-        console.log(123);
     },
 
     //Show Header Fixed on Scroll
@@ -109,12 +111,8 @@ const MZDPage = {
         $(document).scroll(function () {
             if ($(window).scrollTop() > 200) {
                 $('#header').addClass('fixed');
-                $('#slider').addClass('fixed');
-                $('#insight-header').addClass('fixed');
             } else {
                 $('#header').removeClass('fixed');
-                $('#slider').removeClass('fixed');
-                $('#insight-header').removeClass('fixed');
             }
         })
     },
@@ -133,6 +131,6 @@ const MZDPage = {
         this.changeTypeNews();
         this.changeInsightList();
         this.toogleFooterPageList();
-        // this.scrollEffect();
+        this.scrollEffect();
     }
 }
