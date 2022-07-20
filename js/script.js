@@ -25,11 +25,15 @@ const MZDPage = {
     brandSlider: function () {
         $('#brand .slider-brand').slick({
             infinite: true,
-            speed: 500,
-            slidesToShow: 6,
-            slidesToScroll: 4,
+            speed: 2000,
             arrows: false,
             variableWidth: true,
+            autoplay: true,
+            autoplaySpeed: 0,
+            cssEase: 'linear',
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            initialSlide: 1
         })
     },
 
