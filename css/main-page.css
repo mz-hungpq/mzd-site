@@ -16,11 +16,24 @@
     margin-right: 0;
 }
 
+#main .content-left {
+    width: 100%;
+    margin: 0 auto;
+    margin-left: 0;
+}
+
 #main .mzd-container {
     width: auto;
     display: flex;
     overflow: hidden;
     margin-left: calc((100% - var(--page-max-width))/2 + 20px);
+}
+
+#main .mzd-container-left {
+    width: auto;
+    display: flex;
+    overflow: hidden;
+    margin-right: calc((100% - var(--page-max-width))/2 + 20px);
 }
 
 /* Slider Style */

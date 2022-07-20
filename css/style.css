@@ -26,6 +26,7 @@
 
     /* Header Height */
     --header-height: 120px;
+    --header-height-fixed: 80px;
     --header-height-big: 1080px;
 
 
