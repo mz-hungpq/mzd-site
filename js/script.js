@@ -33,7 +33,7 @@ const MZDPage = {
     //Main Page Brand Slider
     brandSlider: function () {
         $('#brand .slider-brand').slick({
-            infinite: true,
+            infinite: false,
             speed: 2000,
             arrows: false,
             variableWidth: true,
@@ -42,7 +42,12 @@ const MZDPage = {
             cssEase: 'linear',
             slidesToShow: 1,
             slidesToScroll: 1,
-            initialSlide: 1
+            initialSlide: 1,
+            swipe: false,
+            touchMove: false,
+            pauseOnFocus: false,
+            pauseOnHover: false,
+            accessibility: false
         });
     },
 
@@ -118,13 +123,30 @@ const MZDPage = {
 
     //Show Header Fixed on Scroll
     scrollEffect: function () {
+        //Header Pin
         $(document).scroll(function () {
             if ($(window).scrollTop() > 200) {
                 $('#header').addClass('fixed');
             } else {
                 $('#header').removeClass('fixed');
             }
-        })
+        });
+        //Main brand slide
+
+        $(document).scroll(function () {
+            const brandSlidePostition = $('#brand .slider-brand').offset().top;
+            const currentPosition = $(window).scrollTop();
+
+            console.log(brandSlidePostition);
+            console.log(currentPosition);
+            if (currentPosition > brandSlidePostition - 500 && currentPosition < brandSlidePostition + 300) {
+                setTimeout(function () {
+                    $('#brand .slider-brand').addClass('active');
+                }, 500)
+            } else {
+                $('#brand .slider-brand').removeClass('active');
+            }
+        });
     },
 
     //Footer Page List Toggle
@@ -136,7 +158,7 @@ const MZDPage = {
 
     init: function () {
         this.mainSlider();
-        this.brandSlider();
+        // this.brandSlider();
         this.scrollToTop();
         this.changeTypeNews();
         this.changeInsightList();

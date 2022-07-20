@@ -64,6 +64,7 @@
 
 #slider {
     width: 100%;
+    margin-bottom: 200px;
 }
 
 #slider .slider-content {
@@ -226,7 +227,6 @@
 .brand-wrapper-content {
     background-color: var(--bg-color);
     width: 100%;
-    margin-top: 200px;
     padding-top: 130px;
 }
 
@@ -267,6 +267,25 @@
 
 #brand .slider-brand {
     padding-top: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    gap: 99px;
+    transform: translateX(calc((100% - var(--page-max-width))/2 + 20px));
+}
+
+#brand .slider-brand.active {
+    animation: slide 10s linear infinite;
+}
+
+@keyframes slide {
+    0% {
+        transform: translateX(calc((100% - var(--page-max-width))/2 + 20px));
+    }
+
+    100% {
+        transform: translateX(-100%);
+    }
 }
 
 #brand .slick-track {
