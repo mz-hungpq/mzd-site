@@ -135,7 +135,7 @@ const MZDPage = {
         const branSlideAnimate = document.querySelector('#brand .slider-brand').animate([
             { transform: 'translateX(-100%)' }
         ], {
-            duration: 20000,
+            duration: 10000,
             iterations: Infinity
         });
         branSlideAnimate.pause();
@@ -143,10 +143,8 @@ const MZDPage = {
         $(document).scroll(function () {
             const brandSlidePostition = $('#brand .slider-brand').offset().top;
             const currentPosition = $(window).scrollTop();
-            if (currentPosition > brandSlidePostition - 500 && currentPosition < brandSlidePostition + 300) {
-                setTimeout(function () {
-                    branSlideAnimate.play();
-                }, 500)
+            if (currentPosition > brandSlidePostition - 700 && currentPosition < brandSlidePostition + 300) {
+                branSlideAnimate.play();
             } else {
                 branSlideAnimate.pause();
             }

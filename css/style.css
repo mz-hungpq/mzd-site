@@ -88,6 +88,15 @@ h6 {
     letter-spacing: -3%;
 }
 
+.btn-next {
+    position: relative;
+    text-transform: uppercase;
+    color: var(--mzd-black-color-5);
+    display: flex;
+    width: auto;
+    transition: 0.5s;
+}
+
 .btn-next::after {
     content: "";
     position: absolute;
