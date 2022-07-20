@@ -96,11 +96,11 @@ const MZDPage = {
 
             MZDPage.resetInsightType();
 
-            $('#insight-list .lists .single-list').each(function () {
+            $('#insight-list .lists .single-item').each(function () {
                 if (type === '전체') {
                     $(this).addClass('appear');
                 } else {
-                    if ($(this).find('.list-type').text() === type) {
+                    if ($(this).find('.item-type').text() === type) {
                         $(this).addClass('appear');
                     } else $(this).addClass('disappear');
                 }
@@ -110,7 +110,7 @@ const MZDPage = {
 
     //Reset Insight Type
     resetInsightType: function () {
-        $('#insight-list .lists .single-list').each(function () {
+        $('#insight-list .lists .single-item').each(function () {
             $(this).removeClass('appear');
             $(this).removeClass('disappear');
         })
