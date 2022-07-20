@@ -29,6 +29,10 @@
     margin-left: calc((100% - var(--page-max-width))/2 + 20px);
 }
 
+#main .mzd-container.full {
+    margin-left: 0px;
+}
+
 #main .mzd-container-left {
     width: auto;
     display: flex;
@@ -38,17 +42,17 @@
 
 /* Slider Style */
 
-#slider {
+#slider-title {
     width: 100%;
     margin-top: 200px;
 }
 
-#slider .slider-title .bold {
+#slider-title .slider-title .bold {
     font-weight: var(--font-weigth-bold);
     color: var(--mzd-black-color);
 }
 
-#slider .slider-sub-title {
+#slider-title .slider-sub-title {
     font-weight: var(--font-weigth-regular);
     font-weight: 400;
     font-size: 24px;
@@ -56,6 +60,10 @@
     letter-spacing: -0.03em;
     color: #333333;
     color: var(--mzd-black-color-2);
+}
+
+#slider {
+    width: 100%;
 }
 
 #slider .slider-content {

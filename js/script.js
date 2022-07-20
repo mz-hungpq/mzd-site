@@ -6,17 +6,27 @@ const MZDPage = {
 
     //Main Page Slider
     mainSlider: function () {
-        $('#slider .slider-content').slick({
+        var sliderSettings = {
             infinite: true,
             speed: 500,
             slidesToShow: 1,
             slidesToScroll: 1,
             arrows: true,
             variableWidth: true,
-            prevArrow: '<button class="slide-arrow prev-arrow"></button>',
             nextArrow: '<button class="slide-arrow next-arrow"></button>',
             dots: true,
-            centerMode: true,
+            centerMode: false,
+        };
+
+        $('.mzd-container #slider .slider-content').slick(sliderSettings);
+
+        $('#slider .slider-content .slide-arrow.next-arrow').click(function () {
+            $('#main .content-right .mzd-container #slider').closest('.mzd-container').addClass('full');
+            sliderSettings.centerMode = true;
+            sliderSettings.prevArrow = '<button class="slide-arrow prev-arrow"></button>';
+            $('.mzd-container #slider .slider-content').slick('unslick');;
+            $('.mzd-container.full #slider .slider-content').slick(sliderSettings);
+            $('.mzd-container.full #slider .slider-content').slick("slickNext");
         });
     },
 
