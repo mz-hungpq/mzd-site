@@ -25,15 +25,11 @@ const MZDPage = {
     brandSlider: function () {
         $('#brand .slider-brand').slick({
             infinite: true,
-            speed: 2000,
+            speed: 500,
+            slidesToShow: 6,
+            slidesToScroll: 4,
             arrows: false,
             variableWidth: true,
-            autoplay: true,
-            autoplaySpeed: 0,
-            cssEase: 'linear',
-            slidesToShow: 1,
-            slidesToScroll: 1,
-            initialSlide: 1
         })
     },
 
@@ -75,6 +71,39 @@ const MZDPage = {
         })
     },
 
+    //Change Type of Item in Insight Main Page
+    changeInsightList: function () {
+        $('#insight-list .types .type').click(function () {
+
+            const type = $(this).text();
+            $('#insight-list .types .type').each(function () {
+                $(this).removeClass('active');
+            })
+            $(this).addClass('active');
+
+            MZDPage.resetInsightType();
+
+            $('#insight-list .lists .single-list').each(function () {
+                if (type === '전체') {
+                    $(this).addClass('appear');
+                } else {
+                    if ($(this).find('.list-type').text() === type) {
+                        $(this).addClass('appear');
+                    } else $(this).addClass('disappear');
+                }
+            })
+        })
+    },
+
+    //Reset Insight Type
+    resetInsightType: function () {
+        $('#insight-list .lists .single-list').each(function () {
+            $(this).removeClass('appear');
+            $(this).removeClass('disappear');
+        })
+        console.log(123);
+    },
+
     //Show Header Fixed on Scroll
     scrollEffect: function () {
         $(document).scroll(function () {
@@ -102,6 +131,7 @@ const MZDPage = {
         this.brandSlider();
         this.scrollToTop();
         this.changeTypeNews();
+        this.changeInsightList();
         this.toogleFooterPageList();
         // this.scrollEffect();
     }
