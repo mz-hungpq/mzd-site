@@ -30,64 +30,7 @@ const MZDPage = {
         });
     },
 
-    //Main Page Brand Slider
-    brandSlider: function () {
-        $('#brand .slider-brand').slick({
-            infinite: false,
-            speed: 2000,
-            arrows: false,
-            variableWidth: true,
-            autoplay: true,
-            autoplaySpeed: 0,
-            cssEase: 'linear',
-            slidesToShow: 1,
-            slidesToScroll: 1,
-            initialSlide: 1,
-            swipe: false,
-            touchMove: false,
-            pauseOnFocus: false,
-            pauseOnHover: false,
-            accessibility: false
-        });
-    },
-
-    //Scroll to Top
-    scrollToTop: function () {
-        $('#footer .page-on-top').click(function () {
-            $('html,body').animate({ scrollTop: 0 }, 'slow');
-        })
-    },
-
-    //Change Type of News in News Page
-    changeTypeNews: function () {
-        $('#category .type').click(function () {
-            const type = $(this).text();
-            $('#category .type').each(function () {
-                $(this).removeClass('active');
-            })
-            $(this).addClass('active');
-
-            MZDPage.resetNewsType();
-
-            $('#news-list .single-news').each(function () {
-                if (type === '전체') {
-                    $(this).addClass('appear');
-                } else {
-                    if ($(this).find('.news-type').text() === type) {
-                        $(this).addClass('appear');
-                    } else $(this).addClass('disappear');
-                }
-            })
-        })
-    },
-
-    //Reset News Type
-    resetNewsType: function () {
-        $('#news-list .single-news').each(function () {
-            $(this).removeClass('appear');
-            $(this).removeClass('disappear');
-        })
-    },
+    //Welcome Slider
 
     //Change Type of Item in Insight Main Page
     changeInsightList: function () {
@@ -179,9 +122,6 @@ const MZDPage = {
 
     init: function () {
         this.mainSlider();
-        // this.brandSlider();
-        this.scrollToTop();
-        this.changeTypeNews();
         this.changeInsightList();
         this.toogleFooterPageList();
         this.scrollEffect();
