@@ -75,8 +75,8 @@ const MZDPage = {
             }
         });
         //Main brand slide
-        if (document.querySelector('#brand .slider-brand') !== null) {
-            const branSlideAnimate = document.querySelector('#brand .slider-brand').animate([
+        if (document.querySelector('.slider-brand') !== null) {
+            const branSlideAnimate = document.querySelector('.slider-brand').animate([
                 { transform: 'translateX(-100%)' }
             ], {
                 duration: 10000,
@@ -85,7 +85,7 @@ const MZDPage = {
             branSlideAnimate.pause();
 
             $(document).scroll(function () {
-                const brandSlidePostition = $('#brand .slider-brand').offset().top;
+                const brandSlidePostition = $('.slider-brand').offset().top;
                 const currentPosition = $(window).scrollTop();
                 if (currentPosition > brandSlidePostition - 700 && currentPosition < brandSlidePostition + 300) {
                     branSlideAnimate.play();
@@ -102,21 +102,14 @@ const MZDPage = {
             $(this).toggleClass('active');
         })
     },
-    
-    carouselTechService:function(){
-        $('.related_slider').slick({
+
+    //Tech Slider
+    carouselTechService: function () {
+        $('#techandsv_home .techandsv_container .related_slider').slick({
             infinite: false,
             slidesToShow: 3,
             slidesToScroll: 3,
             arrows: true,
-        });
-        $('.partner_slider').slick({
-            slidesToShow: 5,
-            variableWidth: true,
-            // centerMode: true,
-            slidesToScroll: 1,
-            arrows: false,
-
         });
     },
 

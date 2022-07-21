@@ -274,16 +274,11 @@
     transform: translateX(calc((100% - var(--page-max-width))/2 + 20px));
 }
 
-#brand .slick-track {
+#brand .single-brand {
     display: flex;
     align-items: center;
-    gap: 80px;
-}
-
-#brand .single-brand {
-    display: block;
-    align-items: center;
-    justify-content: center;
+    justify-content: left;
+    gap: 99px;
 }
 
 #brand .single-brand img {
