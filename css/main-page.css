@@ -497,6 +497,10 @@
 
 #welcome .welcome-content {
     width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 14px;
 }
 
 #welcome .welcome-content .content {
@@ -506,11 +510,10 @@
 }
 
 #welcome .welcome-content .content-fill {
-    display: inline;
-    margin: 0 20px;
     border-bottom: 6px solid var(--mzd-black-color-6);
     font-weight: var(--font-weigth-bold);
     color: var(--mzd-blue-color);
+    transform: translateY(-25px);
 }
 
 #welcome .wrapper-button {
