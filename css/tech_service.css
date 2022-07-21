@@ -55,10 +55,6 @@
 }
 
 #techandsv_home .techandsv_container_left {
-    /*width: auto;*/
-    /*display: flex;*/
-    /*overflow: hidden;*/
-    /*margin-left: calc((100% - 1430px)/2 + 20px);*/
     margin-left: calc((100% - 1430px)/2);
 
 }
@@ -104,7 +100,7 @@
 }
 
 #techandsv_home .bg_techandsv_intro {
-    background-image: url("../assets/techandservice/techandsv_bg.png");
+    background-image: url("../assets/images/techandservice/techandsv_bg.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: 100%;
@@ -115,7 +111,7 @@
 }
 
 #mzdigital_home .bg_mzdigital_intro {
-    background-image: url("../assets/megazonedigital/banner.png");
+    background-image: url("../assets/images/megazonedigital/banner.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: 100%;
