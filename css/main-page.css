@@ -509,6 +509,14 @@
     font-weight: var(--font-weigth-bold);
     color: var(--mzd-blue-color);
     transform: translateY(-25px);
+    width: 400px;
+}
+
+#welcome .content-fill .single-content {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 #welcome .wrapper-button {

@@ -31,6 +31,23 @@ const MZDPage = {
     },
 
     //Welcome Slider
+    mainWelcomeSlider: function () {
+        $('#welcome .content-fill').slick({
+            infinite: true,
+            speed: 500,
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            arrows: false,
+            autoplay: true,
+            autoplaySpeed: 1000,
+            vertical: true,
+            cssEase: 'linear',
+            verticalReverse: true,
+            accessibility: false,
+            pauseOnFocus: false,
+            pauseOnHover: false
+        });
+    },
 
     //Change Type of Item in Insight Main Page
     changeInsightList: function () {
@@ -115,6 +132,7 @@ const MZDPage = {
 
     init: function () {
         this.mainSlider();
+        this.mainWelcomeSlider();
         this.changeInsightList();
         this.toogleFooterPageList();
         this.scrollEffect();
