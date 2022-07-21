@@ -132,23 +132,25 @@ const MZDPage = {
             }
         });
         //Main brand slide
-        const branSlideAnimate = document.querySelector('#brand .slider-brand').animate([
-            { transform: 'translateX(-100%)' }
-        ], {
-            duration: 10000,
-            iterations: Infinity
-        });
-        branSlideAnimate.pause();
+        if (document.querySelector('#brand .slider-brand') !== null) {
+            const branSlideAnimate = document.querySelector('#brand .slider-brand').animate([
+                { transform: 'translateX(-100%)' }
+            ], {
+                duration: 10000,
+                iterations: Infinity
+            });
+            branSlideAnimate.pause();
 
-        $(document).scroll(function () {
-            const brandSlidePostition = $('#brand .slider-brand').offset().top;
-            const currentPosition = $(window).scrollTop();
-            if (currentPosition > brandSlidePostition - 700 && currentPosition < brandSlidePostition + 300) {
-                branSlideAnimate.play();
-            } else {
-                branSlideAnimate.pause();
-            }
-        });
+            $(document).scroll(function () {
+                const brandSlidePostition = $('#brand .slider-brand').offset().top;
+                const currentPosition = $(window).scrollTop();
+                if (currentPosition > brandSlidePostition - 700 && currentPosition < brandSlidePostition + 300) {
+                    branSlideAnimate.play();
+                } else {
+                    branSlideAnimate.pause();
+                }
+            });
+        }
     },
 
     //Footer Page List Toggle
