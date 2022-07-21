@@ -1,4 +1,4 @@
-/* Begin Insight Column 1 Page */
+/* Begin Insight Column 2 Page */
 /* ------
 ------
 ------ */
@@ -9,12 +9,6 @@
     font-family: Moebius Korea;
     src: url('../assets/fonts/MOEBIUS-KOREA.TTF');
     font-weight: 500;
-}
-
-#main {
-    font-family: var(--main-font-family);
-    width: 100%;
-    font-style: normal;
 }
 
 .header-banner {
@@ -589,96 +583,7 @@
 
 /* Main Screen */
 
-/* Related Content */
-
-#related-content {
-    width: var(--page-max-width);
-    margin: 0 auto;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: left;
-    margin-bottom: 200px;
-    border-top: 1px solid var(--line-color);
-}
-
-#related-content .related-button {
-    width: 100%;
-    margin-top: 100px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-top: 48px;
-    margin-bottom: 280px;
-}
-
-#related-content .related-button span a {
-    width: 218px;
-    height: 60px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    cursor: pointer;
-    user-select: none;
-    transition: 0.5s;
-    border: 1px solid #666666;
-    background-color: transparent;
-    font-weight: var(--font-weigth-bold);
-    font-size: 20px;
-    line-height: 100%;
-    text-align: center;
-    color: var(--mzd-black-color);
-}
-
-#related-content .related-button span a:hover {
-    background-color: var(--mzd-blue-color);
-    color: var(--mzd-black-color-6);
-    border: 1px solid var(--mzd-blue-color);
-}
-
-#related-content .related-title {
-    font-weight: var(--font-weigth-bold);
-    font-size: 24px;
-    line-height: 140%;
-    text-transform: uppercase;
-    color: #000000;
-    margin-bottom: 20px;
-}
-
-#related-content .related-list {
-    width: 100%;
-    display: flex;
-    align-items: flex-start;
-    justify-content: space-between;
-    gap: 57px;
-}
-
-#related-content .related-list .single-item {
-    width: 33%;
-}
-
-#related-content .single-item .image {
-    width: 100%;
-    margin-bottom: 20px;
-}
-
-#related-content .single-item .image img {
-    width: 100%;
-    display: block;
-    object-fit: cover;
-}
-
-#related-content .single-item .content {
-    font-weight: var(--font-weigth-semi-bold);
-    font-size: 24px;
-    line-height: 140%;
-    letter-spacing: -0.03em;
-    color: #000000;
-}
-
-/* Related Content */
-
 /* ------
 ------
 ------ */
-/* End Insight Column 1 Page */
+/* End Insight Column 2 Page */
