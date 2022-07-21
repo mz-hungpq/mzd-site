@@ -16,7 +16,12 @@ html {
     background-size: cover;
     position: relative;
 }
-
+.mzd-header-wrapper.breadcrumb-strategyconsulting {
+    background-image: url('../assets/images/technical_competency/banner2.png');
+}
+.mzd-header-wrapper.breadcrumb-driveconversion {
+    background-image: url('../assets/images/technical_competency/banner3.png');
+}
 .mzd-header-content {
     position: relative;
     width: 1430px;
@@ -72,7 +77,12 @@ html {
     flex: 50%;
     margin-bottom: 90px;
 }
-
+.mzd-techicals.mzd-site-drive .mzd-tech-item {
+    margin-bottom: 134px;
+}
+.mzd-techicals.mzd-site-drive .mzd-tech-item:nth-child(3), .mzd-techicals.mzd-site-drive .mzd-tech-item:nth-child(4) {
+    margin-bottom: 0px;
+}
 .mzd-tech-icon {
     margin-right: 40px;
     width: 72px;
@@ -104,7 +114,12 @@ html {
     height: 500px;
     margin-right: calc((100% - var(--page-max-width))/2 + 20px);
 }
-
+.mzd-reference.reference-strategyconsulting {
+    background-image: url("../assets/images/technical_competency/technical_media2.png");
+}
+.mzd-reference.reference-driveconversion {
+    background-image: url("../assets/images/technical_competency/technical_media3.png");
+}
 .mzd-reference-block {
     position: absolute;
     bottom: 0;
@@ -279,4 +294,143 @@ html {
     line-height: 150%;
     letter-spacing: -0.03em;
     color: #000000;
+}
+
+.cloud-box-cicle-line-content-main h3 {
+    font-size: 20px;
+}
+
+
+div#service-drive-box {
+    margin-top: 150px;
+}
+.mzd-providing-block{
+    width: 100%;
+}
+.service-drive-box-main{
+    display: flex;
+}
+.service-drive-box-groupfield{
+    width: 33.3333333333%;
+}
+.service-drive-box-big-main > div {
+    width: 384px;
+    height: 384px;
+    background-color: #F7F7F7;
+    border-radius: 50%;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.service-drive-box-big-item {
+    width: 218px;
+    height: 218px;
+    border: 1px #ddd solid;
+    border-radius: 50%;
+    position: absolute;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.service-drive-box-groupfield-base {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 100%;
+}
+.service-drive-box-big-item:nth-of-type(1){
+    left: -35px;
+    top: calc(-50% + 110px);
+}
+.service-drive-box-big-item:nth-of-type(2){
+    right: -35px;
+    top: calc(-50% + 110px);
+}
+.service-drive-box-big-item:nth-of-type(4){
+    left: -35px;
+    bottom: calc(-50% + 110px);
+}
+.service-drive-box-big-item:nth-of-type(5){
+    right: -35px;
+    bottom: calc(-50% + 110px);
+}
+
+.service-drive-box-groupfield:first-child .service-drive-box-field-info:first-child {
+    top: -70px;
+    position: relative;
+    text-align: right;
+}
+.service-drive-box-groupfield:first-child .service-drive-box-field-info:last-child {
+    bottom: -70px;
+    position: relative;
+    text-align: right;
+}
+.service-drive-box-groupfield:last-child .service-drive-box-field-info:first-child {
+    top: -70px;
+    position: relative;
+    text-align: left;
+}
+.service-drive-box-groupfield:last-child .service-drive-box-field-info:last-child {
+    bottom: -70px;
+    position: relative;
+    text-align: left;
+}
+.service-drive-box-groupfield:last-child .service-drive-box-field-info:first-child .service-drive-info-desc,
+.service-drive-box-groupfield:last-child .service-drive-box-field-info:last-child .service-drive-info-desc {
+    text-align: left;
+}
+.service-drive-info-title{
+    font-size: 24px;
+    line-height: 29px;
+    color: #000000;
+    margin-bottom: 25px;
+    font-weight: 600;
+}
+.service-drive-info-desc {
+    font-size: 20px;
+    line-height: 30px;
+    text-align: right;
+    letter-spacing: -0.01em;
+    color: #777777;
+}
+.service-box-icon{
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 102px;
+    height:85px;
+    display: block;
+}
+.service-icon-cloud{
+    background-image: url(../assets/images/technical_competency/service-box-icon-01.png);
+    width: 102px;
+    height:85px;
+}
+.service-icon-platform{
+    background-image: url(../assets/images/technical_competency/service-box-icon-02.png);
+    width: 91px;
+    height:90px;
+}
+.service-icon-data{
+    background-image: url(../assets/images/technical_competency/service-box-icon-03.png);
+    width: 72px;
+    height:78px;
+}
+.service-icon-r_d{
+    background-image: url(../assets/images/technical_competency/service-box-icon-04.png);
+    width: 88px;
+    height:84px;
+}
+.service-drive-box-big-item span{
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    color: #777777;
+    font-weight: 500;
+    margin-top: 10px;
 }
