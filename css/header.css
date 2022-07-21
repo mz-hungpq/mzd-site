@@ -22,6 +22,7 @@
     left: 0;
     transition: 0.5s;
     animation: header-show 0.35s linear;
+    background-color: transparent;
 }
 
 @keyframes header-show {
@@ -43,7 +44,9 @@
     background-color: transparent;
     z-index: 2;
 }
-
+#header.fixed  .header-content{
+    background-color:transparent
+}
 .header-banner {
     background-image: url('../assets/images/home/banner/banner.png');
     background-repeat: no-repeat;

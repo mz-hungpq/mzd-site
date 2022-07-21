@@ -159,6 +159,23 @@ const MZDPage = {
             $(this).toggleClass('active');
         })
     },
+    
+    carouselTechService:function(){
+        $('.related_slider').slick({
+            infinite: false,
+            slidesToShow: 3,
+            slidesToScroll: 3,
+            arrows: true,
+        });
+        $('.partner_slider').slick({
+            slidesToShow: 5,
+            variableWidth: true,
+            // centerMode: true,
+            slidesToScroll: 1,
+            arrows: false,
+
+        });
+    },
 
     init: function () {
         this.mainSlider();
@@ -168,5 +185,6 @@ const MZDPage = {
         this.changeInsightList();
         this.toogleFooterPageList();
         this.scrollEffect();
+        this.carouselTechService();
     }
 }
