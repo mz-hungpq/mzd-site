@@ -2,7 +2,6 @@
 #cloud-box {
     padding-top: 50px;
     padding-bottom: 50px;
-    margin-left: 50px;
 }
 
 
@@ -51,7 +50,7 @@
 .cloud-box-main {
     display: flex;
     align-items: flex-end;
-    margin-left: calc(100% - var(--page-max-width)/2 - 180px);
+    margin-left: calc((100% - var(--page-max-width))/2 + 280px);
 }
 
 .cloud-box-line {
