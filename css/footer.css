@@ -293,13 +293,12 @@
     width: 279px;
     position: absolute;
     list-style-type: none;
-    top: 0;
+    bottom: 0;
     left: 0;
     transform: translateY(0);
     opacity: 0;
     visibility: hidden;
     transition: 0.5s;
-    animation: list-down 0.5s linear;
     z-index: 1;
 }
 
@@ -324,10 +323,8 @@
 }
 
 #footer .theme-list.active ul.theme-list-choose {
-    transform: translateY(-100%);
     opacity: 1;
     visibility: visible;
-    animation: list-up 0.5s linear;
 }
 
 @keyframes list-up {

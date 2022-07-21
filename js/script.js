@@ -117,7 +117,12 @@ const MZDPage = {
     toogleFooterPageList: function () {
         $('#footer .footer-bottom .page-theme .theme-list').click(function () {
             $(this).toggleClass('active');
-        })
+        });
+        jQuery(document).click(function(event) {
+            if (!jQuery(event.target).is("#footer .page-theme .theme-list *")) {
+                $('#footer .footer-bottom .page-theme .theme-list').removeClass('active');
+            }
+        });
     },
 
     //Tech Slider
