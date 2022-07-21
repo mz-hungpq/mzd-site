@@ -5,6 +5,30 @@
 
 #main {
     font-family: var(--main-font-family);
+    width: 100%;
+    font-style: normal;
+}
+
+#main .content-right {
+    width: 100%;
+}
+
+#main .mzd-container {
+    width: auto;
+    display: flex;
+    overflow: hidden;
+    margin-left: calc((100% - var(--page-max-width))/2 + 20px);
+}
+
+#main .mzd-container.full {
+    margin-left: 0px;
+}
+
+#main .mzd-container-left {
+    width: auto;
+    display: flex;
+    overflow: hidden;
+    margin-right: calc((100% - var(--page-max-width))/2 + 20px);
 }
 
 /* Header */
@@ -103,7 +127,6 @@
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
-    border-bottom: 1px solid var(--line-color);
 }
 
 #column1-content .column1-details .left {
@@ -228,7 +251,22 @@
     color: var(--mzd-black-color-2);
 }
 
-#column1-content .column1-button {
+/* Content */
+
+/* Related Content */
+
+#related-content {
+    width: var(--page-max-width);
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: left;
+    margin-bottom: 200px;
+    border-top: 1px solid var(--line-color);
+}
+
+#related-content .related-button {
     width: 100%;
     margin-top: 100px;
     display: flex;
@@ -238,7 +276,7 @@
     margin-bottom: 280px;
 }
 
-#column1-content .column1-button span a {
+#related-content .related-button span a {
     width: 218px;
     height: 60px;
     display: flex;
@@ -256,24 +294,10 @@
     color: var(--mzd-black-color);
 }
 
-#column1-content .column1-button span a:hover {
+#related-content .related-button span a:hover {
     background-color: var(--mzd-blue-color);
     color: var(--mzd-black-color-6);
     border: 1px solid var(--mzd-blue-color);
-}
-
-/* Content */
-
-/* Related Content */
-
-#related-content {
-    width: var(--page-max-width);
-    margin: 0 auto;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: left;
-    margin-bottom: 200px;
 }
 
 #related-content .related-title {

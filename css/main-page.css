@@ -6,20 +6,11 @@
 #main {
     font-family: var(--main-font-family);
     width: 100%;
-    margin: 0 auto;
     font-style: normal;
 }
 
 #main .content-right {
     width: 100%;
-    margin: 0 auto;
-    margin-right: 0;
-}
-
-#main .content-left {
-    width: 100%;
-    margin: 0 auto;
-    margin-left: 0;
 }
 
 #main .mzd-container {
@@ -89,6 +80,8 @@
 
 #slider .slider-content .slick-arrow {
     position: absolute;
+    font-size: 0;
+    border: none;
 }
 
 #slider .slider-content .slick-disabled {

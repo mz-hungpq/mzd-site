@@ -130,6 +130,17 @@ const MZDPage = {
         });
     },
 
+    //Column2 Slider
+    column2MainScreenSlider: function () {
+        $('#mainscreen .mainscreen-content').slick({
+            infinite: false,
+            slidesToShow: 5,
+            slidesToScroll: 1,
+            arrows: false,
+            variableWidth: true
+        });
+    },
+
     init: function () {
         this.mainSlider();
         this.mainWelcomeSlider();
@@ -137,5 +148,6 @@ const MZDPage = {
         this.toogleFooterPageList();
         this.scrollEffect();
         this.carouselTechService();
+        this.column2MainScreenSlider();
     }
 }
