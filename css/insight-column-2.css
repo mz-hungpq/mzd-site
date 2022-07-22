@@ -541,12 +541,17 @@
     height: 1111px;
 }
 
+#insight-column-2 #mainscreen .mainscreen-content .slick-list {
+    overflow: inherit;
+}
+
 #insight-column-2 #mainscreen .mainscreen-content .single-block {
     width: 255px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    height: auto;
 }
 
 #insight-column-2 #mainscreen .mainscreen-content .single-block.block-1 {
