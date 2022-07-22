@@ -475,6 +475,7 @@
     position: relative;
     margin-top: 177px;
     height: 1950px;
+    overflow: hidden;
 }
 
 #insight-column-2 #mainscreen .mainscreen-background {
