@@ -115,10 +115,12 @@ h6 {
     background-image: url(../assets/arrows/foward-blue-arrow.png);
     transform: translateX(5px) translateY(-50%);
 }
-.font-family-Pretendard{
+
+.font-family-Pretendard {
     font-family: var(--main-font-family);
 }
-.font-family-pretendard-regular{
+
+.font-family-pretendard-regular {
     font-family: var(--main-font-family);
     font-weight: var(--font-weigth-regular);
 }

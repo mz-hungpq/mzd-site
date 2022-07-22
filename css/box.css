@@ -4,7 +4,6 @@
     padding-bottom: 50px;
 }
 
-
 .elip-box-item-content {
     width: 240px;
     height: 240px;
@@ -259,6 +258,7 @@
     margin-left: 0px;
     margin-top: 80px;
 }
+
 .cloud-box-cicle-line-item.line-item-04 .cloud-box-cicle-line-content::before {
     content: "";
     position: absolute;
@@ -290,6 +290,7 @@
     bottom: 15px;
     left: -88px;
 }
+
 .cloud-box-cicle-main-content {
     font-size: 24px;
     line-height: 38px;
@@ -301,18 +302,22 @@
     align-items: center;
     height: 100%;
 }
+
 .cloud-box-cicle-main-content strong {
     display: flex;
     flex-wrap: wrap;
     text-align: center;
 }
+
 .cloud-box-cicle-main-content strong span {
     display: block;
     width: 100%;
 }
-.cloud-box-cicle-main-content > span:nth-of-type(2) {
+
+.cloud-box-cicle-main-content>span:nth-of-type(2) {
     font-size: 20px;
 }
+
 .cloud-box-field {
     display: flex;
     justify-content: center;
@@ -325,30 +330,36 @@
     padding-left: 15px;
     padding-right: 15px;
 }
-.mz-icon{
+
+.mz-icon {
     background-repeat: no-repeat;
     background-position: center;
     width: 58px;
     height: 58px;
 }
-.mz-icon-containers{
+
+.mz-icon-containers {
     background-image: url(../assets/icons/containers.png);
 }
-.mz-icon-microservices{
+
+.mz-icon-microservices {
     background-image: url(../assets/icons/microservices.png);
     width: 56px;
     height: 56px;
 }
-.mz-icon-continuous-delivery{
+
+.mz-icon-continuous-delivery {
     background-image: url(../assets/icons/continuous-delivery.png);
     width: 52px;
     height: 56px;
 }
-.mz-icon-devops{
+
+.mz-icon-devops {
     background-image: url(../assets/icons/devops.png);
     width: 59px;
     height: 58px;
 }
+
 .cloud-box-field span {
     padding-top: 5px;
 }
