@@ -380,7 +380,11 @@ div#service-drive-box {
     right: -35px;
     bottom: calc(-50% + 110px);
 }
-.service-drive-box-groupfield .service-drive-box-field-info{width: 100%;}
+
+.service-drive-box-groupfield .service-drive-box-field-info {
+    width: 100%;
+}
+
 .service-drive-box-groupfield:first-child .service-drive-box-field-info:first-child {
     top: -70px;
     position: relative;
