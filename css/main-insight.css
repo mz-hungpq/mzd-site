@@ -3,37 +3,33 @@
 ------
 ------ */
 
-#main {
+#insight-kstudy #main {
     font-family: var(--main-font-family);
     width: 100%;
     margin: 0 auto;
     font-style: normal;
 }
 
-#main .content-right {
+#insight-kstudy #main .content-right {
     width: 100%;
-    margin: 0 auto;
-    margin-right: 0;
 }
 
-#main .content-left {
+#insight-kstudy #main .content-left {
     width: 100%;
-    margin: 0 auto;
-    margin-left: 0;
 }
 
-#main .mzd-container {
+#insight-kstudy #main .mzd-container {
     width: auto;
     display: flex;
     overflow: hidden;
     margin-left: calc((100% - var(--page-max-width))/2 + 20px);
 }
 
-#main .mzd-container.full {
+#insight-kstudy #main .mzd-container.full {
     margin-left: 0px;
 }
 
-#main .mzd-container-left {
+#insight-kstudy #main .mzd-container-left {
     width: auto;
     display: flex;
     overflow: hidden;
@@ -42,25 +38,25 @@
 
 /* Insight Header */
 
-#insight-header {
+#insight-kstudy #insight-header {
     font-family: var(--main-font-family);
     width: 100%;
     margin-top: 120px;
     margin-bottom: 100px;
 }
 
-#insight-header .insight-wrapper {
+#insight-kstudy #insight-header .insight-wrapper {
     width: var(--page-max-width);
     margin: 0 auto;
 }
 
-#insight-header .insight-title {
+#insight-kstudy #insight-header .insight-title {
     font-weight: var(--font-weigth-bold);
     color: #000000;
     margin-bottom: 15px;
 }
 
-#insight-header .insight-content {
+#insight-kstudy #insight-header .insight-content {
     font-weight: var(--font-weigth-regular);
     font-size: 24px;
     line-height: 150%;
@@ -72,7 +68,7 @@
 
 /* Insight Banner */
 
-#insight-banner {
+#insight-kstudy #insight-banner {
     width: 100%;
     display: flex;
     justify-content: space-between;
@@ -80,7 +76,7 @@
     gap: 70px;
 }
 
-#insight-banner .left {
+#insight-kstudy #insight-banner .left {
     width: 100%;
     height: 620px;
     display: flex;
@@ -88,14 +84,14 @@
     align-items: center;
 }
 
-#insight-banner .left img {
+#insight-kstudy #insight-banner .left img {
     width: 100%;
     height: 100%;
     display: block;
     object-fit: cover;
 }
 
-#insight-banner .right {
+#insight-kstudy #insight-banner .right {
     width: 1000px;
     display: flex;
     flex-direction: column;
@@ -103,7 +99,7 @@
     justify-content: center;
 }
 
-#insight-banner .right .type {
+#insight-kstudy #insight-banner .right .type {
     background: #000000;
     padding: 10px 14px;
     font-family: var(--sub-font-family);
@@ -114,16 +110,16 @@
     margin-bottom: 16px;
 }
 
-#insight-banner .right .title {
+#insight-kstudy #insight-banner .right .title {
     font-weight: var(--font-weigth-bold);
     color: var(--mzd-black-color);
 }
 
-#insight-banner .right .title.separate {
+#insight-kstudy #insight-banner .right .title.separate {
     margin-bottom: 25px;
 }
 
-#insight-banner .right .content {
+#insight-kstudy #insight-banner .right .content {
     font-weight: var(--font-weigth-regular);
     font-size: 24px;
     line-height: 150%;
@@ -131,11 +127,11 @@
     color: var(--text-sub-color-2);
 }
 
-#insight-banner .right .content.separate {
+#insight-kstudy #insight-banner .right .content.separate {
     margin-bottom: 55px;
 }
 
-#insight-banner .right .more a {
+#insight-kstudy #insight-banner .right .more a {
     font-weight: var(--font-weigth-bold);
     font-size: 20px;
     line-height: 100%;
@@ -144,11 +140,11 @@
     position: relative;
 }
 
-#insight-banner .right .more a:hover {
+#insight-kstudy #insight-banner .right .more a:hover {
     color: var(--mzd-blue-color);
 }
 
-#insight-banner .right .more a::after {
+#insight-kstudy #insight-banner .right .more a::after {
     content: "";
     position: absolute;
     top: 50%;
@@ -162,7 +158,7 @@
     transition: 0.5s;
 }
 
-#insight-banner .right .more a:hover::after {
+#insight-kstudy #insight-banner .right .more a:hover::after {
     background-image: url(../assets/arrows/foward-blue-arrow.png);
     transform: translateX(5px) translateY(-50%);
 }
@@ -172,20 +168,20 @@
 
 /* Insight List */
 
-#insight-list {
+#insight-kstudy #insight-list {
     width: 100%;
     background-color: var(--bg-color);
     margin-top: 200px;
 }
 
-#insight-list .insight-list-wrapper {
+#insight-kstudy #insight-list .insight-list-wrapper {
     width: var(--page-max-width);
     margin: 0 auto;
     padding-top: 97px;
     padding-bottom: 200px;
 }
 
-#insight-list .insight-list-wrapper .types {
+#insight-kstudy #insight-list .insight-list-wrapper .types {
     width: 100%;
     display: flex;
     align-items: flex-start;
@@ -193,7 +189,7 @@
     gap: 16px;
 }
 
-#insight-list .types .type {
+#insight-kstudy #insight-list .types .type {
     border-radius: 2px;
     padding: 15px 45px;
     font-weight: var(--font-weigth-bold);
@@ -209,14 +205,14 @@
     border: 1px solid var(--line-color);
 }
 
-#insight-list .types .type.active,
-#insight-list .types .type:hover {
+#insight-kstudy #insight-list .types .type.active,
+#insight-kstudy #insight-list .types .type:hover {
     background: var(--mzd-blue-color);
     color: var(--mzd-black-color-6);
     border: 1px solid none;
 }
 
-#insight-list .insight-list-wrapper .lists {
+#insight-kstudy #insight-list .insight-list-wrapper .lists {
     margin-top: 45px;
     width: 100%;
     display: flex;
@@ -225,7 +221,7 @@
     justify-content: space-between;
 }
 
-#insight-list .lists .single-item {
+#insight-kstudy #insight-list .lists .single-item {
     width: 30%;
     display: flex;
     flex-direction: column;
@@ -234,7 +230,7 @@
     margin-bottom: 60px;
 }
 
-#insight-list .lists .single-item.appear {
+#insight-kstudy #insight-list .lists .single-item.appear {
     animation: item-appear 0.5s linear;
     display: flex;
 }
@@ -251,7 +247,7 @@
     }
 }
 
-#insight-list .lists .single-item.disappear {
+#insight-kstudy #insight-list .lists .single-item.disappear {
     animation: item-disappear 0.5s linear;
     display: none;
 }
@@ -268,18 +264,18 @@
     }
 }
 
-#insight-list .lists .single-item .item-image {
+#insight-kstudy #insight-list .lists .single-item .item-image {
     width: 100%;
     margin-bottom: 20px;
 }
 
-#insight-list .lists .single-item .item-image img {
+#insight-kstudy #insight-list .lists .single-item .item-image img {
     width: 100%;
     display: block;
     object-fit: cover;
 }
 
-#insight-list .lists .single-item .item-type {
+#insight-kstudy #insight-list .lists .single-item .item-type {
     width: auto;
     margin-bottom: 10px;
     background: #000000;
@@ -292,7 +288,7 @@
     color: var(--mzd-black-color-6);
 }
 
-#insight-list .lists .single-item .item-title {
+#insight-kstudy #insight-list .lists .single-item .item-title {
     font-weight: var(--font-weigth-semi-bold);
     font-size: 24px;
     line-height: 140%;
@@ -300,11 +296,11 @@
     color: #000000;
 }
 
-#insight-list .lists .single-item .item-title.separate {
+#insight-kstudy #insight-list .lists .single-item .item-title.separate {
     margin-bottom: 20px;
 }
 
-#insight-list .lists .single-item .item-content {
+#insight-kstudy #insight-list .lists .single-item .item-content {
     font-weight: var(--font-weigth-regular);
     font-size: 16px;
     line-height: 19px;
@@ -312,7 +308,7 @@
     color: #777777;
 }
 
-#insight-list .button {
+#insight-kstudy #insight-list .button {
     width: 100%;
     margin-top: 100px;
     display: flex;
@@ -320,7 +316,7 @@
     justify-content: center;
 }
 
-#insight-list .button span a {
+#insight-kstudy #insight-list .button span a {
     width: 218px;
     height: 60px;
     display: flex;
@@ -338,7 +334,7 @@
     color: var(--mzd-black-color);
 }
 
-#insight-list .button span a:hover {
+#insight-kstudy #insight-list .button span a:hover {
     background-color: var(--mzd-blue-color);
     color: var(--mzd-black-color-6);
     border: 1px solid var(--mzd-blue-color);
