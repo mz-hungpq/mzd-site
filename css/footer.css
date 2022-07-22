@@ -325,6 +325,7 @@
 #footer .theme-list.active ul.theme-list-choose {
     opacity: 1;
     visibility: visible;
+    bottom: 48px;
 }
 
 @keyframes list-up {
