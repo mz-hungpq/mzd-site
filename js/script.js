@@ -104,7 +104,7 @@ const MZDPage = {
             $(document).scroll(function () {
                 const brandSlidePostition = $('.slider-brand').offset().top;
                 const currentPosition = $(window).scrollTop();
-                if (currentPosition > brandSlidePostition - 700 && currentPosition < brandSlidePostition + 300) {
+                if (currentPosition > brandSlidePostition - 700 && currentPosition < brandSlidePostition + 100) {
                     branSlideAnimate.play();
                 } else {
                     branSlideAnimate.pause();
