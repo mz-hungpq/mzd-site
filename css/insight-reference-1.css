@@ -1,0 +1,73 @@
+/* Begin Insight Reference 1 Page */
+/* ------
+------
+------ */
+
+/* Content */
+
+#reference1-content {
+    width: var(--page-max-width);
+    margin: 0 auto;
+}
+
+#reference1-content .reference1-details {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-top: 100px;
+    margin-bottom: 104px;
+}
+
+#reference1-content .reference1-details .insight-reference1 {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 150px;
+}
+
+#reference1-content .reference1-details .left {
+    width: 25%;
+}
+
+#reference1-content .left .title {
+    font-weight: var(--font-weigth-bold);
+    color: #000000;
+}
+
+#reference1-content .reference1-details .right {
+    width: 75%;
+}
+
+#reference1-content .right .title {
+    font-weight: var(--font-weigth-bold);
+    font-size: 24px;
+    line-height: 170%;
+    letter-spacing: -0.03em;
+    color: var(--mzd-black-color-2);
+    margin-bottom: 20px;
+}
+
+#reference1-content .right .text {
+    font-weight: var(--font-weigth-regular);
+    font-size: 20px;
+    line-height: 170%;
+    letter-spacing: -0.03em;
+    color: var(--mzd-black-color-2);
+}
+
+#reference1-content .right .large-text {
+    font-weight: var(--font-weigth-regular);
+    font-size: 24px;
+    line-height: 150%;
+    letter-spacing: -0.03em;
+    color: var(--mzd-black-color-2);
+}
+
+#reference1-content .insight-reference1-1 svg {
+    padding-left: 80px;
+    margin-top: 70px;
+    margin-bottom: 130px;
+}

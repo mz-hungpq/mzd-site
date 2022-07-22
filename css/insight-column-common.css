@@ -9,7 +9,6 @@
 #insight-header-wrapper {
     width: 100%;
     margin-bottom: 120px;
-    background-image: url("../assets/images/insight/column/1/banner.png");
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -40,6 +39,40 @@
 }
 
 /* Insight Header */
+
+/* Insight Title */
+
+#insight-header-title {
+    width: var(--page-max-width);
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 49px;
+    border-bottom: 1px solid var(--line-color);
+}
+
+#insight-header-title .title {
+    font-weight: var(--font-weigth-bold);
+    color: var(--mzd-black-color);
+    margin-bottom: 40px;
+}
+
+#insight-header-title .action {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+#insight-header-title .action .separate {
+    width: 1px;
+    height: 29px;
+    background-color: var(--line-color);
+    margin: 0 25px;
+}
+
+/* Insight Title */
 
 /* Related Content */
 
