@@ -212,7 +212,7 @@ html {
 
 .providing-content-top {
     display: flex;
-    padding-left: 29%;
+    padding-left: 0;
     margin-top: 68px;
 }
 
@@ -225,27 +225,31 @@ html {
     flex-direction: column;
     text-align: center;
     width: 285px;
+    margin-left: 430px;
 }
 
 .providing-partner {
     display: flex;
     flex-direction: column;
     text-align: center;
-    width: 250px;
-    margin-left: 39%;
+    width: 280px;
+    margin-left: 280px;
 }
 
 .providing-digital {
     display: flex;
     flex-direction: column;
     text-align: center;
+    min-width: 280px;
+    margin-left: 130px;
 }
 
 .providing-knowhow {
     display: flex;
     flex-direction: column;
     text-align: center;
-    margin-left: 27%;
+    margin-left: 280px;
+    width: 280px;
 }
 
 .providing-text {
@@ -376,29 +380,33 @@ div#service-drive-box {
     right: -35px;
     bottom: calc(-50% + 110px);
 }
-
+.service-drive-box-groupfield .service-drive-box-field-info{width: 100%;}
 .service-drive-box-groupfield:first-child .service-drive-box-field-info:first-child {
     top: -70px;
     position: relative;
     text-align: right;
+    padding-right: 70px;
 }
 
 .service-drive-box-groupfield:first-child .service-drive-box-field-info:last-child {
     bottom: -70px;
     position: relative;
     text-align: right;
+    padding-right: 70px;
 }
 
 .service-drive-box-groupfield:last-child .service-drive-box-field-info:first-child {
     top: -70px;
     position: relative;
     text-align: left;
+    padding-left: 70px;
 }
 
 .service-drive-box-groupfield:last-child .service-drive-box-field-info:last-child {
     bottom: -70px;
     position: relative;
     text-align: left;
+    padding-left: 70px;
 }
 
 .service-drive-box-groupfield:last-child .service-drive-box-field-info:first-child .service-drive-info-desc,
