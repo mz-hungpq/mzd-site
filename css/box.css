@@ -29,6 +29,7 @@
 .elip-box-main {
     display: flex;
     gap: 40px;
+    justify-content: center;
 }
 
 .elip-box-item.elip-bottom .elip-box-item-content::before {
