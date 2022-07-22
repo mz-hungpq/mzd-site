@@ -1,0 +1,13 @@
+#globaltech-content {
+    width: var(--page-max-width);
+    margin: 0 auto;
+    margin-top: 81px;
+    margin-bottom: 200px;
+}
+
+#globaltech-content .globaltech-title {
+    width: var(--page-max-width);
+    margin: 0 auto;
+    margin-top: 81px;
+    margin-bottom: 200px;
+}

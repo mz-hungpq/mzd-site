@@ -11,7 +11,7 @@
     font-weight: 500;
 }
 
-.header-banner {
+.header-banner-insight {
     background-image: url('../assets/images/insight/column/2/banner.png');
     background-repeat: no-repeat;
     background-position: center center;
@@ -22,7 +22,7 @@
     padding-left: 240px;
 }
 
-.header-banner .desc {
+.header-banner-insight .desc {
     width: 100%;
     font-weight: var(--font-weigth-bold);
     font-size: 20px;
@@ -32,7 +32,7 @@
     margin-bottom: 20px;
 }
 
-.header-banner h2.title {
+.header-banner-insight h2.title {
     width: 100%;
     color: var(--mzd-black-color-6);
     display: flex;
